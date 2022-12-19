@@ -1,0 +1,23 @@
+#!/usr/bin/env node
+
+
+const childProcessExec = require('child_process').exec;
+const util = require('util');
+
+const exec = util.promisify(childProcessExec);
+
+checkCommitMessage();
+
+async function checkCommitMessage(){
+    const branches = await exec('git branch');
+
+    if(branches.stdout.includes("* master")) 
+    {
+        console.log(`You are on ${branches.stdout} Create a new branch to work on!`);
+        process.exit(1);
+    }
+    else
+    {
+        process.exit(0);
+    }
+}
