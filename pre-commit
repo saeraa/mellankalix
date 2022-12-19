@@ -11,7 +11,7 @@ checkCommitMessage();
 async function checkCommitMessage(){
     const branches = await exec('git branch');
 
-    if(branches.stdout.includes("* master")) 
+    if(branches.stdout.includes("* master") || branches.stdout.includes("* main"))
     {
         console.log(`You are on ${branches.stdout} Create a new branch to work on!`);
         process.exit(1);
