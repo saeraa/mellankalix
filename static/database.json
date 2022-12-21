@@ -1,0 +1,52 @@
+[
+	{
+		"type": "film",
+		"title": "Sjätte sinnet",
+		"genre": ["horror", "thriller", "drama"],
+		"description": "Barnpsykologen Malcolm Crowe tar sig an en nioåring, Cole Sear, som är rädd och förvirrad. Fallet är mycket likt ett annat som Crowe misslyckats med och han bestämmer sig för att botgöra sitt misslyckande genom att hjälpa Cole. Cole får förtroende för Crowe och berättar varför han lever i en ständig rädsla - han kan se och tala med de döda.",
+		"director": "M. Night Shyamalan",
+		"actors": ["Bruce Willis", "Haley Joel Osment", "Toni Collette"],
+		"land": "USA",
+		"age": 11,
+		"image": "static/img/movies/The_Sixth_Sense_poster.png",
+		"showtimes": ["", "", "", ""],
+		"length": 107,
+		"trailer": "https://www.youtube.com/watch?v=3-ZP95NF_Wk",
+		"release": "1999-08-02"
+	},
+	{
+		"type": "film",
+		"title": "When Harry Met Sally",
+		"genre": ["comedy", "romance", "drama"],
+		"description": "Harry och Sally träffas på väg från Chicago till New York och blir goda vänner. De söker båda efter kärleken på olika håll, men vänskapen till varandra är det enda som består genom åren. När de en dag råkar hamna i säng tillsammans står de inför den stora frågan: kan de behålla sin fina vänskapsrelation utan att deras sexuella relation kommer i vägen?",
+		"director": "Rob Reiner",
+		"actors": ["Meg Ryan", "Billy Crystal", "Carrie Fisher"],
+		"land": "USA",
+		"age": 0,
+		"image": "static/img/movies/zdt9dfxwgnkk1.jpg",
+		"showtimes": ["", "", "", ""],
+		"length": 96,
+		"trailer": "https://www.youtube.com/watch?v=-E10AcydCuk",
+		"release": "1989-07-21"
+	},
+	{
+		"type": "film",
+		"title": "Det Stora Blå",
+		"genre": ["adventure", "drama", "sport"],
+		"description": "En kille som gillar vattnet och delfiner typ. Han ba och sen hon ba och de ba. Och sen blev allt kul ett tag och sen lite tragiskt och sen dog alla i slutet. Defninitivt inget delfinsex, jag lovar.",
+		"director": "Luc Besson",
+		"actors": [
+			"Jean Reno",
+			"Jean-Marc Barr",
+			"Rosanna Arquette",
+			"Arash den Snygge"
+		],
+		"land": "France",
+		"age": 15,
+		"image": "static/img/movies/1509357752-f22e08ff5bbe9ae16bb7b61f98ad3126f8c1e616.webp",
+		"showtimes": ["", "", "", ""],
+		"length": 168,
+		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
+		"release": "1988-08-21"
+	}
+]
