@@ -11,7 +11,8 @@
 		"image": "static/img/movies/The_Sixth_Sense_poster.png",
 		"length": 107,
 		"trailer": "https://www.youtube.com/watch?v=3-ZP95NF_Wk",
-		"release": "1999-08-02"
+		"release": "1999-08-02",
+		"language": "english"
 	},
 	{
 		"type": "film",
@@ -25,7 +26,8 @@
 		"image": "static/img/movies/zdt9dfxwgnkk1.jpg",
 		"length": 96,
 		"trailer": "https://www.youtube.com/watch?v=-E10AcydCuk",
-		"release": "1989-07-21"
+		"release": "1989-07-21",
+		"language": "english"
 	},
 	{
 		"type": "film",
@@ -43,7 +45,112 @@
 		"age": 15,
 		"image": "static/img/movies/1509357752-f22e08ff5bbe9ae16bb7b61f98ad3126f8c1e616.webp",
 		"length": 168,
-		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
-		"release": "1988-08-21"
+		"trailer": "https://www.imdb.com/video/vi4085842201/",
+		"release": "1988-08-21",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Piren",
+		"genre": ["short", "drama", "romance"],
+		"description": "En skön snubbe som tydligen är färgblind och tycker om en pir. Han går omkring lite och träffar lite folk, skapar lite nya kontakter. Blir lite ledsen ibland",
+		"director": "Chris Marker",
+		"actors": [
+			"Ètienne Becker",
+			"Jean Négroni",
+			"Hélène Chatelain",
+			"Arash den Snabbe"
+		],
+		"land": "France",
+		"age": 72,
+		"image": "static/img/movies/piren.jpg",
+		"length": 28,
+		"trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
+		"release": "1962-02-16",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "De 12 apornas armé",
+		"genre": ["mystery", "sci-fi", "thriller"],
+		"description": "Ungefär tolv apor är ute och tar en bira i Göteborg, men en halkar på ett bananskal och blir sne. De går rallar runt på stan och klubbar folk tills de kommer til kex fabriken. De blir go-sugna på kex och stannar och fikar lite. Blir lugna, men sen kommer fantomen och tjafsar och då jävlar blir det slagsmål. De hittar en pikadoll i ett av omklädningsrumskåpen och går ut på stan och pangar lite folk. Sen däckar de och allt blir lugnt.",
+		"director": "Terry Gilliam",
+		"actors": [
+			"Bruce Willis",
+			"Brad Pitt",
+			"Madeleine Stowe",
+			"Arash den Hårige"
+		],
+		"land": "USA",
+		"age": 18,
+		"image": "static/img/movies/tolvapor.jpg",
+		"length": 129,
+		"trailer": "https://www.imdb.com/video/vi3214197017/",
+		"release": "1996-01-05",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "District 9",
+		"genre": ["action", "sci-fi", "thriller"],
+		"description": "Några skönar snubbar från orten åker på skolutflykt men åker vilse. De kommer till en konstig planet med skumma typer. Ganska våldsamma av sig, men en kille är ganska chill och blir deras polare. De byter lite saker med varandra, men sen börjar folk från klassen försvinna för de våldsamma typerna har börjat skära i de. Efter lite om och men så får de tillslut lite reservdelar till sin skolbuss och kan åka hem igen. Och typ i slutet säger en av de sköna snubbarna typ Ses igen! Men efter han sagt det märker han att de där typerna tar honom på allvar. Men så klart tänker de inte komma tillbaka till den här hålan igen.",
+		"director": "Neill Blomkamp",
+		"actors": [
+			"Sharlto Copley",
+			"David James",
+			"Jason Cope",
+			"Nathalie Boltt",
+			"Arash den Trebente"
+		],
+		"land": "South Africa",
+		"age": 15,
+		"image": "static/img/movies/district9.jpg",
+		"length": 112,
+		"trailer": "https://www.imdb.com/video/vi3896050201/",
+		"release": "2009-08-14",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Kärlek från Beijing",
+		"genre": ["action", "comedy", "thriller"],
+		"description": "James Bonde släng dig i dypölen, här kommer den riktiga spionen! En spion film av världsklass, med pang pang och nakna snubber och allt sånt bra skit. Se den!",
+		"director": "Stephen Chow",
+		"actors": [
+			"Stephen Chow",
+			"Anita Yuen",
+			"Kar-Ying Law",
+			"Kam-Kong Wong",
+			"Joe Cheng",
+			"Pauline Chang",
+			"Arash den Slagtålige"
+		],
+		"land": "Honk Kong",
+		"age": 2,
+		"image": "static/img/movies/beijinglove.jpg",
+		"length": 84,
+		"trailer": "https://www.youtube.com/watch?v=xKcfD19xAtE",
+		"release": "1994-09-14",
+		"language": "cantonese"
+	},
+	{
+		"type": "film",
+		"title": "",
+		"genre": ["", "", ""],
+		"description": "",
+		"director": "",
+		"actors": [
+			"",
+			"",
+			"",
+			""
+		],
+		"land": "",
+		"age": 0,
+		"image": "static/img/movies/",
+		"length": 0,
+		"trailer": "",
+		"release": "1988-08-21",
+		"language": ""
 	}
 ]
