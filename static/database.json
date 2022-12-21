@@ -45,5 +45,59 @@
 		"length": 168,
 		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
 		"release": "1988-08-21"
+	},
+	{
+		"type": "film",
+		"title": "Blade",
+		"genre": ["action", "horror", "si-fi"],
+		"description": "Blades mor dör efter att ha blivit biten av en vampyr och Blade föds med både vampyr- och människoblod i kroppen. Han åldras som en människa men har vampyrens styrka och törst som han undertrycker med ett speciellt serum. Men hans mänskliga samvete gör honom till expert som vampyrjägare.",
+		"director": "Stephen Norrington",
+		"actors": [
+			"Wesley Snipes",
+			"Stephen Dorff",
+			"Kris Kristofferson"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/blade_poster.jpg",
+		"length": 120,
+		"trailer": "https://www.imdb.com/video/vi2746876185/?playlistId=tt0120611&ref_=tt_ov_vi",
+		"release": "1998-08-19"
+	},
+	{
+		"type": "film",
+		"title": "Gladiator",
+		"genre": ["action", "adventure", "drama"],
+		"description": "Germanien, år 180 efter Kristus. Den romerska armén, under ledning av general Maximus, besegrar de sista barbariska horderna som gör motstånd mot Rom. Den döende kejsaren, Marcus Aurelius, förbigår sin egen son Commodus och ber Maximus ta över kejsardömet i syfte att återinföra republik. Commodus dödar sin far och ger order om att avrätta Maximus och hans hustru och son i Spanien",
+		"director": "Ridley Scott",
+		"actors": [
+			"Russell Crowe",
+			"Joaquin Phoenix",
+			"Connie Nielsen"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/gladiator_poster.jpg",
+		"length": 155,
+		"trailer": "https://www.imdb.com/video/vi2628367897/?playlistId=tt0172495&ref_=tt_pr_ov_vi",
+		"release": "2000-05-01"
+	},
+	{
+		"type": "film",
+		"title": "Braveheart",
+		"genre": ["drama", "history", "war"],
+		"description": "Sir William Wallace, alias Braveheart, återvänder efter många år utomlands till Skottland som övertagits av engelsmännen. Rebellen vaknar inom Wallace. Han tänker driva ut engelsmännen.",
+		"director": "Mel Gibson",
+		"actors": [
+			"Mel Gibson",
+			"Sophie Marceau",
+			"Patrick McGoohan"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/braveheart_poster.jpg",
+		"length": 178,
+		"trailer": "https://www.imdb.com/video/vi2874063641/?playlistId=tt0112573&ref_=tt_pr_ov_vi",
+		"release": "1995-05-19"
 	}
 ]
