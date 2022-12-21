@@ -9,7 +9,6 @@
 		"land": "USA",
 		"age": 11,
 		"image": "static/img/movies/The_Sixth_Sense_poster.png",
-		"showtimes": ["", "", "", ""],
 		"length": 107,
 		"trailer": "https://www.youtube.com/watch?v=3-ZP95NF_Wk",
 		"release": "1999-08-02"
@@ -24,7 +23,6 @@
 		"land": "USA",
 		"age": 0,
 		"image": "static/img/movies/zdt9dfxwgnkk1.jpg",
-		"showtimes": ["", "", "", ""],
 		"length": 96,
 		"trailer": "https://www.youtube.com/watch?v=-E10AcydCuk",
 		"release": "1989-07-21"
@@ -44,7 +42,6 @@
 		"land": "France",
 		"age": 15,
 		"image": "static/img/movies/1509357752-f22e08ff5bbe9ae16bb7b61f98ad3126f8c1e616.webp",
-		"showtimes": ["", "", "", ""],
 		"length": 168,
 		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
 		"release": "1988-08-21"
