@@ -62,7 +62,8 @@
 		"image": "static/img/movies/blade_poster.jpg",
 		"length": 120,
 		"trailer": "https://www.imdb.com/video/vi2746876185/?playlistId=tt0120611&ref_=tt_ov_vi",
-		"release": "1998-08-19"
+		"release": "1998-08-19",
+		"language": "english"
 	},
 	{
 		"type": "film",
@@ -80,7 +81,8 @@
 		"image": "static/img/movies/gladiator_poster.jpg",
 		"length": 155,
 		"trailer": "https://www.imdb.com/video/vi2628367897/?playlistId=tt0172495&ref_=tt_pr_ov_vi",
-		"release": "2000-05-01"
+		"release": "2000-05-01",
+		"language": "english"
 	},
 	{
 		"type": "film",
@@ -98,6 +100,7 @@
 		"image": "static/img/movies/braveheart_poster.jpg",
 		"length": 178,
 		"trailer": "https://www.imdb.com/video/vi2874063641/?playlistId=tt0112573&ref_=tt_pr_ov_vi",
-		"release": "1995-05-19"
+		"release": "1995-05-19",
+		"language": "english"
 	}
 ]
