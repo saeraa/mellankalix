@@ -289,6 +289,61 @@
 		"trailer": "https://www.imdb.com/video/vi1015463705/?playlistId=tt6751668&ref_=tt_ov_vi",
 		"release": "2019-05-30",
 		"language": "korean"
+},
+	{
+		"type": "film",
+		"title": "Avatar: The Way of Water",
+		"genre": ["Science Fiction", "Adventure", "Action"],
+		"description": "Jake Sully lever med sin nya familj på planeten Pandora. När ett välbekant hot återvänder för att avsluta det som tidigare påbörjats, måste Jake samarbeta med Neytiri och Na'vi-folkets armé för att skydda deras planet.",
+		"director": "James Cameron",
+		"actors": ["Sam Worthington", "Zoe Saldana", "Sigourney Weaver"],
+		"land": "USA",
+		"age": 11,
+		"image": "static/img/movies/MV5BYjhiNj.jpg",
+		"length": 192,
+		"trailer": "https://www.youtube.com/watch?v=d9MyW72ELq0",
+		"release": "2022-12-14",
+		"language": "English"
+	},
+	{
+		"type": "film",
+		"title": "Lyle, Lyle, Crocodile",
+		"genre": ["Comedy", "Music", "Family", "Animation"],
+		"description": "Efter att familjen Primm flyttat till New York, kämpar den unge sonen med att anpassa sig till sin nya skola och sina nya vänner. En dag upptäcker han Lyle - en sjungande krokodil som älskar kaviar, att bada och bra musik - boendes på familjens vind, vilket förändrar allt och de blir bästa vänner. När deras vänskap hotas av den elake grannen mister Grumps, måste familjen samarbeta med Lyles karismatiske ägare Hector P. Valenti för att visa världen att en familj kan se ut på många sätt och att det inte är något fel med en stor, sjungande krokodil med en ännu större personlighet.",
+		"director": "Josh Gordon",
+		"actors": [
+			"Winslow Fegley",
+			"Constance Wu",
+			"Javier Bardem",
+			"Scoot McNairy"
+		],
+		"land": "USA",
+		"age": 0,
+		"image": "static/img/movies/1400x2100.jpg",
+		"length": 106,
+		"trailer": "https://www.youtube.com/watch?v=s0W6O7mSlaU",
+		"release": "2022-11-04",
+		"language": "English"
+	},
+	{
+		"type": "film",
+		"title": "En annorlunda värld",
+		"genre": ["Animation", "Science Fiction", "Adventure"],
+		"description": "Den legendariska familjen Clade tillhör en släkt av upptäckare. Tillsammans med sitt team ger de sig av på en resa bortom tid och rum till en plats fylld med oändliga mysterier. Men deras olikheter hotar det senaste och allra viktigaste uppdraget - de måste rädda sin värld.",
+		"director": "Don Hall",
+		"actors": [
+			"Jake Gyllenhaal",
+			"Dennis Quaid",
+			"Jaboukie Young-White",
+			"Lucy Liu"
+		],
+		"land": "USA",
+		"age": 0,
+		"image": "static/img/movies/5bSSe2RjMI7daHF1hLWIS8Oojq.jpg",
+		"length": 102,
+		"trailer": "https://youtu.be/fAj4ryInaSc",
+		"release": "2022-11-25",
+		"language": "English"
 	},
 	{
 		"type": "film",
@@ -296,12 +351,7 @@
 		"genre": ["", "", ""],
 		"description": "",
 		"director": "",
-		"actors": [
-			"",
-			"",
-			"",
-			""
-		],
+		"actors": ["", "", "", ""],
 		"land": "",
 		"age": 0,
 		"image": "static/img/movies/",
