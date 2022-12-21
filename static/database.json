@@ -192,6 +192,106 @@
 	},
 	{
 		"type": "film",
+		"title": "Gudfadern",
+		"genre": ["crime", "drama","thriller"],
+		"description": "Patriarken Vito Corleone (italienska för lejonhjärta) leder en av de fem stora maffiafamiljerna i New York, med tonvikt på att kontrollera spelmarknaden och fackföreningar.",
+		"director": "Francis Ford Coppola",
+		"actors": [
+			"Marlon Brando",
+			"Al Pacino",
+			"James Caan",
+			"Diane Keaton"
+		],
+		"land": "United States",
+		"age": 15,
+		"image": "static/img/movies/gudfadern.jpg",
+		"length": 175,
+		"trailer": "https://www.imdb.com/video/vi1348706585/?playlistId=tt0068646&ref_=tt_ov_vi",
+		"release": "1972-09-27",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Into the Wild",
+		"genre": ["adventure", "drama", "biography"],
+		"description": "I början av 90-talet försvann Chris McCandless helt utan spår. Han lämnade sin collegeutbildning och sin familj för att något år senare hittas död i Alaskas vildmark.",
+		"director": "Sean Penn",
+		"actors": [
+			"Emile Hirsch",
+			"Vince Vaughn",
+			"Catherine Keener",
+			"Marcia Gay Harden"
+		],
+		"land": "United States",
+		"age": 16,
+		"image": "static/img/movies/into_the_wild.jpg",
+		"length": 148,
+		"trailer": "https://www.imdb.com/video/vi1051656473/?playlistId=tt0758758&ref_=tt_pr_ov_vi",
+		"release": "2007-09-21",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "The Aviator",
+		"genre": ["biography", "drama", "adventure"],
+		"description": "Aviator handlar om den legendariske Howard Hughes liv. Filmen utspelas under 1920- till 1940-talet, en epok då Hughes var stor filmregissör och producent i Hollywood. Hughes var en våghalsig och innovativ man som även byggde och designade flygmaskiner.",
+		"director": "Martin Scorsese",
+		"actors": [
+			"Leonardo DiCaprio",
+			"Cate Blanchett",
+			"Kate Beckinsale",
+			"John C. Reilly"
+		],
+		"land": "United States",
+		"age": 13,
+		"image": "static/img/movies/the_aviator.png",
+		"length": 170,
+		"trailer": "https://www.imdb.com/video/vi3947888665/?playlistId=tt0338751&ref_=tt_ov_vi",
+		"release": "2004-12-25",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Moneyball",
+		"genre": ["biography", "drama", "sport"],
+		"description": "Baseballmanagern Billy Bean tvingas av budgetskäl byta taktik. Han går emot de traditionella metoderna och tar istället hjälp av ekonomen Peter för att med statistiska metoder finna spelare med potential som andra lag ratat.",
+		"director": "Bennett Miller",
+		"actors": [
+			"Brad Pitt",
+			"Robin Wright",
+			"Jonah Hill",
+			"Chris Pratt"
+		],
+		"land": "United States",
+		"age": 13,
+		"image": "static/img/movies/moneyball.jpg",
+		"length": 133,
+		"trailer": "https://www.imdb.com/video/vi3229326361/?playlistId=tt1210166&ref_=tt_pr_ov_vi",
+		"release": "2011-12-09",
+		"language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Parasit",
+		"genre": ["drama", "thriller", "horror"],
+		"description": "Girighet och klassdiskriminering hotar det nybildade symbiotiska förhållandet mellan den rika familjen Park och den utblottade Kim-klanen.",
+		"director": "Bong Joon Ho",
+		"actors": [
+			"Song Kang-ho",
+			"Lee Sun-kyun",
+			"Cho Yeo-jeong",
+			"Choi Woo-sik"
+		],
+		"land": "South Korea",
+		"age": 18,
+		"image": "static/img/movies/parasite.jpg",
+		"length": 132,
+		"trailer": "https://www.imdb.com/video/vi1015463705/?playlistId=tt6751668&ref_=tt_ov_vi",
+		"release": "2019-05-30",
+		"language": "korean"
+},
+	{
+		"type": "film",
 		"title": "Avatar: The Way of Water",
 		"genre": ["Science Fiction", "Adventure", "Action"],
 		"description": "Jake Sully lever med sin nya familj på planeten Pandora. När ett välbekant hot återvänder för att avsluta det som tidigare påbörjats, måste Jake samarbeta med Neytiri och Na'vi-folkets armé för att skydda deras planet.",
