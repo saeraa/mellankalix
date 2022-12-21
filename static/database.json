@@ -47,7 +47,7 @@
 		"length": 168,
 		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
 		"release": "1988-08-21",
-    "language": "english"
+		"language": "english"
 	},
 	{
 		"type": "film",
@@ -105,9 +105,10 @@
 		"length": 155,
 		"trailer": "https://www.imdb.com/video/vi2628367897/?playlistId=tt0172495&ref_=tt_pr_ov_vi",
 		"release": "2000-05-01",
-    "language": "english"
+		"language": "english"
 	},
 	{
+		"type": "film",
 		"title": "De 12 apornas armé",
 		"genre": ["mystery", "sci-fi", "thriller"],
 		"description": "Ungefär tolv apor är ute och tar en bira i Göteborg, men en halkar på ett bananskal och blir sne. De går rallar runt på stan och klubbar folk tills de kommer til kex fabriken. De blir go-sugna på kex och stannar och fikar lite. Blir lugna, men sen kommer fantomen och tjafsar och då jävlar blir det slagsmål. De hittar en pikadoll i ett av omklädningsrumskåpen och går ut på stan och pangar lite folk. Sen däckar de och allt blir lugnt.",
@@ -128,7 +129,6 @@
 	},
 	{
 		"type": "film",
-
 		"title": "Braveheart",
 		"genre": ["drama", "history", "war"],
 		"description": "Sir William Wallace, alias Braveheart, återvänder efter många år utomlands till Skottland som övertagits av engelsmännen. Rebellen vaknar inom Wallace. Han tänker driva ut engelsmännen.",
