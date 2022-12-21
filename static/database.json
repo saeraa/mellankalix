@@ -45,8 +45,27 @@
 		"age": 15,
 		"image": "static/img/movies/1509357752-f22e08ff5bbe9ae16bb7b61f98ad3126f8c1e616.webp",
 		"length": 168,
-		"trailer": "https://www.imdb.com/video/vi4085842201/",
+		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
 		"release": "1988-08-21",
+    "language": "english"
+	},
+	{
+		"type": "film",
+		"title": "Blade",
+		"genre": ["action", "horror", "si-fi"],
+		"description": "Blades mor dör efter att ha blivit biten av en vampyr och Blade föds med både vampyr- och människoblod i kroppen. Han åldras som en människa men har vampyrens styrka och törst som han undertrycker med ett speciellt serum. Men hans mänskliga samvete gör honom till expert som vampyrjägare.",
+		"director": "Stephen Norrington",
+		"actors": [
+			"Wesley Snipes",
+			"Stephen Dorff",
+			"Kris Kristofferson"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/blade_poster.jpg",
+		"length": 120,
+		"trailer": "https://www.imdb.com/video/vi2746876185/?playlistId=tt0120611&ref_=tt_ov_vi",
+		"release": "1998-08-19",
 		"language": "english"
 	},
 	{
@@ -71,6 +90,24 @@
 	},
 	{
 		"type": "film",
+		"title": "Gladiator",
+		"genre": ["action", "adventure", "drama"],
+		"description": "Germanien, år 180 efter Kristus. Den romerska armén, under ledning av general Maximus, besegrar de sista barbariska horderna som gör motstånd mot Rom. Den döende kejsaren, Marcus Aurelius, förbigår sin egen son Commodus och ber Maximus ta över kejsardömet i syfte att återinföra republik. Commodus dödar sin far och ger order om att avrätta Maximus och hans hustru och son i Spanien",
+		"director": "Ridley Scott",
+		"actors": [
+			"Russell Crowe",
+			"Joaquin Phoenix",
+			"Connie Nielsen"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/gladiator_poster.jpg",
+		"length": 155,
+		"trailer": "https://www.imdb.com/video/vi2628367897/?playlistId=tt0172495&ref_=tt_pr_ov_vi",
+		"release": "2000-05-01",
+    "language": "english"
+	},
+	{
 		"title": "De 12 apornas armé",
 		"genre": ["mystery", "sci-fi", "thriller"],
 		"description": "Ungefär tolv apor är ute och tar en bira i Göteborg, men en halkar på ett bananskal och blir sne. De går rallar runt på stan och klubbar folk tills de kommer til kex fabriken. De blir go-sugna på kex och stannar och fikar lite. Blir lugna, men sen kommer fantomen och tjafsar och då jävlar blir det slagsmål. De hittar en pikadoll i ett av omklädningsrumskåpen och går ut på stan och pangar lite folk. Sen däckar de och allt blir lugnt.",
@@ -87,6 +124,26 @@
 		"length": 129,
 		"trailer": "https://www.imdb.com/video/vi3214197017/",
 		"release": "1996-01-05",
+		"language": "english"
+	},
+	{
+		"type": "film",
+
+		"title": "Braveheart",
+		"genre": ["drama", "history", "war"],
+		"description": "Sir William Wallace, alias Braveheart, återvänder efter många år utomlands till Skottland som övertagits av engelsmännen. Rebellen vaknar inom Wallace. Han tänker driva ut engelsmännen.",
+		"director": "Mel Gibson",
+		"actors": [
+			"Mel Gibson",
+			"Sophie Marceau",
+			"Patrick McGoohan"
+		],
+		"land": "USA",
+		"age": 15,
+		"image": "static/img/movies/braveheart_poster.jpg",
+		"length": 178,
+		"trailer": "https://www.imdb.com/video/vi2874063641/?playlistId=tt0112573&ref_=tt_pr_ov_vi",
+		"release": "1995-05-19",
 		"language": "english"
 	},
 	{
