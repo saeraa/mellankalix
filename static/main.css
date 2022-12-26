@@ -129,6 +129,77 @@
     padding: 0.5em 2em;
   }
 }
+.current-movies {
+  margin: 0 auto;
+}
+.current-movies-header {
+  text-align: center;
+  margin-block: 3rem 1rem;
+}
+.current-movies-list {
+  margin-inline: auto;
+  max-width: 1000px;
+  list-style-type: none;
+  display: grid;
+  gap: clamp(1rem, 4vw, 2rem);
+  grid-template-columns: repeat(3, 30%);
+  justify-items: center;
+  justify-content: center;
+}
+.current-movies-list .current-movies-card {
+  height: 100%;
+  list-style-type: none;
+  max-width: 300px;
+  background-color: #edf2f4;
+  padding: 1.5rem;
+  width: 30vw;
+  transition: all 0.3s;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+}
+.current-movies-list .current-movies-card:hover {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.4);
+  transform: scale(1.01);
+}
+.current-movies-list .current-movies-card-title {
+  font-size: clamp(1rem, 2vw, 1.2rem);
+  transition: all 0.3s;
+  text-align: center;
+  margin-top: 0.5rem;
+  text-transform: uppercase;
+  font-family: "Mukta";
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-height: 10%;
+}
+.current-movies-list .current-movies-card-image {
+  height: 88%;
+  width: 100%;
+  aspect-ratio: 10/16;
+  object-fit: cover;
+  border: 3px solid white;
+}
+
+@media (max-width: 750px) {
+  .current-movies-header {
+    margin-block: 3rem 1rem;
+  }
+  .current-movies-list {
+    grid-template-columns: repeat(2, 45%);
+  }
+  .current-movies .current-movies-card {
+    width: auto;
+  }
+}
+@media (max-width: 500px) {
+  .current-movies-header {
+    margin-block: 3rem 1rem;
+  }
+  .current-movies-list {
+    grid-template-columns: 80%;
+  }
+}
 :root {
   background-color: #d9d9d9;
   color: #161a1d;
