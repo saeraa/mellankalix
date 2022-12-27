@@ -1,0 +1,1732 @@
+[
+	{
+		"name": "Alcazar",
+		"dates": [
+			{
+				"date": "2022-12-24",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 12 },
+					{ "time": "14:30", "movieIndex": 11 },
+					{ "time": "17:30", "movieIndex": 1 },
+					{ "time": "20:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2022-12-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 21 },
+					{ "time": "20:00", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2022-12-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 10 },
+					{ "time": "21:30", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2022-12-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 11 },
+					{ "time": "19:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2022-12-28",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 4 },
+					{ "time": "18:30", "movieIndex": 2 },
+					{ "time": "22:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2022-12-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 18 },
+					{ "time": "20:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2022-12-30",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 10 },
+					{ "time": "16:30", "movieIndex": 0 },
+					{ "time": "19:30", "movieIndex": 22 },
+					{ "time": "22:30", "movieIndex": 16 }
+				]
+			},
+			{
+				"date": "2022-12-31",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 0 },
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 0 },
+					{ "time": "20:30", "movieIndex": 9 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-01-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 19 },
+					{ "time": "16:30", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 13 },
+					{ "time": "19:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-03",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 21 },
+					{ "time": "20:00", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-01-04",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 4 },
+					{ "time": "14:30", "movieIndex": 19 },
+					{ "time": "17:30", "movieIndex": 12 },
+					{ "time": "21:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 0 },
+					{ "time": "21:30", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2023-01-06",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 2 },
+					{ "time": "16:30", "movieIndex": 15 },
+					{ "time": "20:30", "movieIndex": 4 },
+					{ "time": "21:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-07",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 15 },
+					{ "time": "14:30", "movieIndex": 8 },
+					{ "time": "17:30", "movieIndex": 17 },
+					{ "time": "20:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-01-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 2 },
+					{ "time": "20:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 0 },
+					{ "time": "19:30", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-01-10",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 0 },
+					{ "time": "19:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-01-11",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 10 },
+					{ "time": "20:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-01-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 1 },
+					{ "time": "20:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-01-13",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 16 },
+					{ "time": "15:30", "movieIndex": 10 },
+					{ "time": "19:30", "movieIndex": 6 },
+					{ "time": "22:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-01-14",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 3 },
+					{ "time": "13:00", "movieIndex": 19 },
+					{ "time": "16:00", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 6 },
+					{ "time": "21:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-01-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 9 },
+					{ "time": "18:30", "movieIndex": 0 },
+					{ "time": "21:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-01-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 0 },
+					{ "time": "20:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-01-17",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 21 },
+					{ "time": "21:00", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-18",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 6 },
+					{ "time": "19:30", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-01-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 5 },
+					{ "time": "20:30", "movieIndex": 4 },
+					{ "time": "21:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-01-20",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 0 },
+					{ "time": "15:30", "movieIndex": 12 },
+					{ "time": "19:30", "movieIndex": 16 },
+					{ "time": "22:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-21",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 19 },
+					{ "time": "13:30", "movieIndex": 16 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 13 },
+					{ "time": "22:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 18 },
+					{ "time": "19:30", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-01-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 20 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-24",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 6 },
+					{ "time": "22:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-01-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 17 },
+					{ "time": "20:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 18 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-27",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 3 },
+					{ "time": "15:00", "movieIndex": 3 },
+					{ "time": "18:00", "movieIndex": 20 },
+					{ "time": "20:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-28",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 12 },
+					{ "time": "14:30", "movieIndex": 22 },
+					{ "time": "17:30", "movieIndex": 9 },
+					{ "time": "19:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-01-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 4 },
+					{ "time": "18:30", "movieIndex": 17 },
+					{ "time": "21:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-01-30",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 13 },
+					{ "time": "22:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-01-31",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 7 },
+					{ "time": "21:30", "movieIndex": 16 }
+				]
+			},
+			{
+				"date": "2023-02-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 5 },
+					{ "time": "21:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 14 },
+					{ "time": "22:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-02-03",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 20 },
+					{ "time": "15:30", "movieIndex": 15 },
+					{ "time": "19:30", "movieIndex": 6 },
+					{ "time": "22:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-02-04",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 7 },
+					{ "time": "14:30", "movieIndex": 7 },
+					{ "time": "18:30", "movieIndex": 5 },
+					{ "time": "22:30", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2023-02-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 14 },
+					{ "time": "21:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-02-06",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 17 },
+					{ "time": "22:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-02-07",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 9 },
+					{ "time": "15:30", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 2 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 11 },
+					{ "time": "16:30", "movieIndex": 11 },
+					{ "time": "19:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-02-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 5 },
+					{ "time": "21:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-10",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 21 },
+					{ "time": "16:00", "movieIndex": 12 },
+					{ "time": "19:30", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-02-11",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 12 },
+					{ "time": "14:30", "movieIndex": 15 },
+					{ "time": "18:30", "movieIndex": 10 },
+					{ "time": "22:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 15 },
+					{ "time": "21:00", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-02-13",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 10 },
+					{ "time": "21:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-14",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 7 },
+					{ "time": "19:30", "movieIndex": 1 },
+					{ "time": "22:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2023-02-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 9 },
+					{ "time": "15:30", "movieIndex": 8 },
+					{ "time": "18:30", "movieIndex": 4 },
+					{ "time": "19:30", "movieIndex": 3 },
+					{ "time": "22:00", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-02-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 9 },
+					{ "time": "19:30", "movieIndex": 11 },
+					{ "time": "22:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-02-17",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 21 },
+					{ "time": "16:00", "movieIndex": 16 },
+					{ "time": "18:30", "movieIndex": 8 },
+					{ "time": "21:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-18",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 18 },
+					{ "time": "13:30", "movieIndex": 16 },
+					{ "time": "16:30", "movieIndex": 17 },
+					{ "time": "19:30", "movieIndex": 6 },
+					{ "time": "22:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 22 },
+					{ "time": "16:30", "movieIndex": 13 },
+					{ "time": "19:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-20",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 18 },
+					{ "time": "20:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-21",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 9 },
+					{ "time": "15:30", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 11 },
+					{ "time": "21:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-02-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 9 },
+					{ "time": "18:30", "movieIndex": 10 },
+					{ "time": "22:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 15 },
+					{ "time": "21:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2023-02-24",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 6 },
+					{ "time": "15:30", "movieIndex": 6 },
+					{ "time": "18:30", "movieIndex": 3 },
+					{ "time": "21:00", "movieIndex": 9 }
+				]
+			},
+			{
+				"date": "2023-02-25",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 19 },
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-02-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 19 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 17 },
+					{ "time": "21:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-02-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 4 },
+					{ "time": "14:30", "movieIndex": 5 },
+					{ "time": "18:30", "movieIndex": 17 },
+					{ "time": "21:30", "movieIndex": 2 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Bar Deco",
+		"dates": [
+			{
+				"date": "2022-12-24",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 7 },
+					{ "time": "14:30", "movieIndex": 1 },
+					{ "time": "17:30", "movieIndex": 11 },
+					{ "time": "20:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2022-12-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 20 },
+					{ "time": "16:30", "movieIndex": 18 },
+					{ "time": "19:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2022-12-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 0 },
+					{ "time": "19:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2022-12-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 22 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 11 },
+					{ "time": "22:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2022-12-28",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 10 },
+					{ "time": "20:30", "movieIndex": 8 }
+				]
+			},
+			{
+				"date": "2022-12-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 7 },
+					{ "time": "20:30", "movieIndex": 16 }
+				]
+			},
+			{
+				"date": "2022-12-30",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 21 },
+					{ "time": "16:00", "movieIndex": 21 },
+					{ "time": "19:00", "movieIndex": 16 },
+					{ "time": "21:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2022-12-31",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 0 },
+					{ "time": "13:30", "movieIndex": 1 },
+					{ "time": "16:30", "movieIndex": 20 },
+					{ "time": "19:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 16 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-01-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 20 },
+					{ "time": "16:30", "movieIndex": 1 },
+					{ "time": "19:30", "movieIndex": 17 },
+					{ "time": "22:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-03",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 20 },
+					{ "time": "19:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-04",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 1 },
+					{ "time": "16:30", "movieIndex": 7 },
+					{ "time": "20:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 17 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 14 },
+					{ "time": "22:00", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-06",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 1 },
+					{ "time": "15:30", "movieIndex": 11 },
+					{ "time": "18:30", "movieIndex": 0 },
+					{ "time": "21:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-07",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 0 },
+					{ "time": "13:30", "movieIndex": 17 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 14 },
+					{ "time": "22:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-01-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 15 },
+					{ "time": "21:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-01-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 13 },
+					{ "time": "20:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-10",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-01-11",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 16 },
+					{ "time": "20:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-01-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 18 },
+					{ "time": "20:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-13",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 1 },
+					{ "time": "15:30", "movieIndex": 3 },
+					{ "time": "18:00", "movieIndex": 6 },
+					{ "time": "21:00", "movieIndex": 4 },
+					{ "time": "22:00", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-01-14",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 9 },
+					{ "time": "12:30", "movieIndex": 7 },
+					{ "time": "16:30", "movieIndex": 7 },
+					{ "time": "20:30", "movieIndex": 4 },
+					{ "time": "21:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 2 },
+					{ "time": "20:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 1 },
+					{ "time": "21:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-01-17",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 1 },
+					{ "time": "20:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-01-18",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 20 },
+					{ "time": "18:30", "movieIndex": 5 },
+					{ "time": "22:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-01-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 18 },
+					{ "time": "22:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-01-20",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 2 },
+					{ "time": "16:30", "movieIndex": 10 },
+					{ "time": "20:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-21",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 11 },
+					{ "time": "13:30", "movieIndex": 18 },
+					{ "time": "16:30", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 22 },
+					{ "time": "16:30", "movieIndex": 11 },
+					{ "time": "19:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 9 },
+					{ "time": "19:30", "movieIndex": 9 },
+					{ "time": "21:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-01-24",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 22 },
+					{ "time": "16:30", "movieIndex": 8 },
+					{ "time": "19:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 8 },
+					{ "time": "20:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-01-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 17 },
+					{ "time": "20:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-01-27",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 19 },
+					{ "time": "15:30", "movieIndex": 14 },
+					{ "time": "18:30", "movieIndex": 18 },
+					{ "time": "21:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-28",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 20 },
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 15 },
+					{ "time": "20:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 11 },
+					{ "time": "20:00", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-01-30",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 18 },
+					{ "time": "19:00", "movieIndex": 5 },
+					{ "time": "22:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2023-01-31",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 4 },
+					{ "time": "17:00", "movieIndex": 15 },
+					{ "time": "21:00", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-02-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 1 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 3 },
+					{ "time": "22:00", "movieIndex": 9 }
+				]
+			},
+			{
+				"date": "2023-02-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 19 },
+					{ "time": "20:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-02-03",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 2 },
+					{ "time": "16:30", "movieIndex": 10 },
+					{ "time": "20:30", "movieIndex": 4 },
+					{ "time": "21:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-02-04",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 16 },
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 16 },
+					{ "time": "20:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 18 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-02-06",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 22 },
+					{ "time": "22:30", "movieIndex": 9 }
+				]
+			},
+			{
+				"date": "2023-02-07",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 0 },
+					{ "time": "20:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 11 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-02-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 8 },
+					{ "time": "20:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-02-10",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 13 },
+					{ "time": "15:30", "movieIndex": 17 },
+					{ "time": "18:30", "movieIndex": 5 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-11",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 11 },
+					{ "time": "13:30", "movieIndex": 4 },
+					{ "time": "14:30", "movieIndex": 1 },
+					{ "time": "17:30", "movieIndex": 21 },
+					{ "time": "21:00", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-02-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 8 },
+					{ "time": "19:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-02-13",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 8 },
+					{ "time": "20:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-02-14",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 6 },
+					{ "time": "19:30", "movieIndex": 14 },
+					{ "time": "22:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-02-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 16 },
+					{ "time": "20:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-02-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 22 },
+					{ "time": "20:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-17",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 6 },
+					{ "time": "15:30", "movieIndex": 6 },
+					{ "time": "18:30", "movieIndex": 20 },
+					{ "time": "21:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-02-18",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 1 },
+					{ "time": "13:30", "movieIndex": 9 },
+					{ "time": "15:30", "movieIndex": 11 },
+					{ "time": "18:30", "movieIndex": 12 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 18 },
+					{ "time": "20:00", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-20",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 22 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 20 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-21",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 10 },
+					{ "time": "20:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 13 },
+					{ "time": "16:30", "movieIndex": 11 },
+					{ "time": "19:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-24",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 21 },
+					{ "time": "16:00", "movieIndex": 2 },
+					{ "time": "19:30", "movieIndex": 3 },
+					{ "time": "22:00", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-02-25",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 11 },
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 18 },
+					{ "time": "20:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-02-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 21 },
+					{ "time": "20:00", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-02-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 6 },
+					{ "time": "20:30", "movieIndex": 6 }
+				]
+			}
+		]
+	},
+	{
+		"name": "Camera",
+		"dates": [
+			{
+				"date": "2022-12-24",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 0 },
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 9 },
+					{ "time": "18:30", "movieIndex": 3 },
+					{ "time": "21:00", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2022-12-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2022-12-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 11 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 3 },
+					{ "time": "22:00", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2022-12-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 11 },
+					{ "time": "16:30", "movieIndex": 13 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2022-12-28",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 7 },
+					{ "time": "20:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2022-12-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 19 },
+					{ "time": "16:30", "movieIndex": 4 },
+					{ "time": "17:30", "movieIndex": 6 },
+					{ "time": "20:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2022-12-30",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 7 },
+					{ "time": "16:30", "movieIndex": 13 },
+					{ "time": "19:30", "movieIndex": 17 },
+					{ "time": "22:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2022-12-31",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 9 },
+					{ "time": "12:30", "movieIndex": 16 },
+					{ "time": "15:30", "movieIndex": 14 },
+					{ "time": "18:30", "movieIndex": 16 },
+					{ "time": "21:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-01-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 22 },
+					{ "time": "19:30", "movieIndex": 4 },
+					{ "time": "20:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-01-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 21 },
+					{ "time": "20:00", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-01-03",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 1 },
+					{ "time": "20:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-01-04",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 16 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-01-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 21 },
+					{ "time": "20:00", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-01-06",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 1 },
+					{ "time": "15:30", "movieIndex": 22 },
+					{ "time": "18:30", "movieIndex": 20 },
+					{ "time": "21:30", "movieIndex": 9 }
+				]
+			},
+			{
+				"date": "2023-01-07",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 6 },
+					{ "time": "13:30", "movieIndex": 9 },
+					{ "time": "15:30", "movieIndex": 1 },
+					{ "time": "18:30", "movieIndex": 19 },
+					{ "time": "21:30", "movieIndex": 8 }
+				]
+			},
+			{
+				"date": "2023-01-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 22 },
+					{ "time": "20:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-01-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 1 },
+					{ "time": "19:30", "movieIndex": 1 },
+					{ "time": "22:30", "movieIndex": 19 }
+				]
+			},
+			{
+				"date": "2023-01-10",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 20 },
+					{ "time": "16:30", "movieIndex": 18 },
+					{ "time": "19:30", "movieIndex": 1 },
+					{ "time": "22:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2023-01-11",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 18 },
+					{ "time": "20:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-01-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 21 },
+					{ "time": "19:00", "movieIndex": 19 },
+					{ "time": "22:00", "movieIndex": 16 }
+				]
+			},
+			{
+				"date": "2023-01-13",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 2 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 14 },
+					{ "time": "22:30", "movieIndex": 4 }
+				]
+			},
+			{
+				"date": "2023-01-14",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 22 },
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 3 },
+					{ "time": "20:00", "movieIndex": 1 },
+					{ "time": "22:30", "movieIndex": 8 }
+				]
+			},
+			{
+				"date": "2023-01-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 11 },
+					{ "time": "20:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 17 },
+					{ "time": "20:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-01-17",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 15 },
+					{ "time": "21:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-01-18",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 11 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 7 },
+					{ "time": "22:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-01-20",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 20 },
+					{ "time": "15:30", "movieIndex": 13 },
+					{ "time": "18:30", "movieIndex": 8 },
+					{ "time": "21:30", "movieIndex": 4 },
+					{ "time": "22:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-21",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 20 },
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 0 },
+					{ "time": "20:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-01-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 17 },
+					{ "time": "16:30", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-01-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 10 },
+					{ "time": "21:30", "movieIndex": 11 }
+				]
+			},
+			{
+				"date": "2023-01-24",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 4 },
+					{ "time": "14:30", "movieIndex": 13 },
+					{ "time": "17:30", "movieIndex": 9 },
+					{ "time": "19:30", "movieIndex": 4 },
+					{ "time": "20:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-01-25",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 17 },
+					{ "time": "16:30", "movieIndex": 8 },
+					{ "time": "19:30", "movieIndex": 0 },
+					{ "time": "22:30", "movieIndex": 0 }
+				]
+			},
+			{
+				"date": "2023-01-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 7 },
+					{ "time": "20:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-01-27",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 11 },
+					{ "time": "15:30", "movieIndex": 21 },
+					{ "time": "19:00", "movieIndex": 8 },
+					{ "time": "21:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-01-28",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 1 },
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 13 },
+					{ "time": "19:30", "movieIndex": 13 },
+					{ "time": "22:30", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-01-29",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 19 },
+					{ "time": "16:30", "movieIndex": 16 },
+					{ "time": "19:30", "movieIndex": 18 },
+					{ "time": "22:30", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2023-01-30",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 12 },
+					{ "time": "20:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-01-31",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 14 },
+					{ "time": "16:30", "movieIndex": 0 },
+					{ "time": "19:30", "movieIndex": 2 }
+				]
+			},
+			{
+				"date": "2023-02-01",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 7 },
+					{ "time": "21:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-02",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 17 },
+					{ "time": "19:30", "movieIndex": 19 },
+					{ "time": "22:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-02-03",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 15 },
+					{ "time": "16:30", "movieIndex": 3 },
+					{ "time": "19:00", "movieIndex": 18 },
+					{ "time": "22:00", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-04",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 21 },
+					{ "time": "14:00", "movieIndex": 15 },
+					{ "time": "18:00", "movieIndex": 10 },
+					{ "time": "21:30", "movieIndex": 22 }
+				]
+			},
+			{
+				"date": "2023-02-05",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 1 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-02-06",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 5 },
+					{ "time": "17:30", "movieIndex": 12 },
+					{ "time": "21:30", "movieIndex": 17 }
+				]
+			},
+			{
+				"date": "2023-02-07",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 0 },
+					{ "time": "16:30", "movieIndex": 20 },
+					{ "time": "19:30", "movieIndex": 17 },
+					{ "time": "22:30", "movieIndex": 14 }
+				]
+			},
+			{
+				"date": "2023-02-08",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 2 },
+					{ "time": "19:30", "movieIndex": 0 },
+					{ "time": "22:30", "movieIndex": 7 }
+				]
+			},
+			{
+				"date": "2023-02-09",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 12 },
+					{ "time": "17:30", "movieIndex": 3 },
+					{ "time": "20:00", "movieIndex": 8 },
+					{ "time": "22:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-10",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 2 },
+					{ "time": "16:30", "movieIndex": 11 },
+					{ "time": "19:30", "movieIndex": 11 },
+					{ "time": "22:30", "movieIndex": 1 }
+				]
+			},
+			{
+				"date": "2023-02-11",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 13 },
+					{ "time": "13:30", "movieIndex": 3 },
+					{ "time": "16:00", "movieIndex": 21 },
+					{ "time": "19:00", "movieIndex": 20 },
+					{ "time": "21:30", "movieIndex": 16 }
+				]
+			},
+			{
+				"date": "2023-02-12",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 20 },
+					{ "time": "16:30", "movieIndex": 15 },
+					{ "time": "20:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-02-13",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 2 },
+					{ "time": "21:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-02-14",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 2 },
+					{ "time": "17:30", "movieIndex": 22 },
+					{ "time": "20:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-15",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 3 },
+					{ "time": "20:00", "movieIndex": 12 }
+				]
+			},
+			{
+				"date": "2023-02-16",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 6 },
+					{ "time": "16:30", "movieIndex": 6 },
+					{ "time": "19:30", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-02-17",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 13 },
+					{ "time": "15:30", "movieIndex": 8 },
+					{ "time": "18:30", "movieIndex": 1 },
+					{ "time": "21:30", "movieIndex": 6 }
+				]
+			},
+			{
+				"date": "2023-02-18",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 3 },
+					{ "time": "13:00", "movieIndex": 12 },
+					{ "time": "16:30", "movieIndex": 4 },
+					{ "time": "17:30", "movieIndex": 10 },
+					{ "time": "21:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-02-19",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 1 },
+					{ "time": "16:30", "movieIndex": 14 },
+					{ "time": "19:30", "movieIndex": 15 }
+				]
+			},
+			{
+				"date": "2023-02-20",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 7 },
+					{ "time": "17:30", "movieIndex": 15 },
+					{ "time": "21:30", "movieIndex": 18 }
+				]
+			},
+			{
+				"date": "2023-02-21",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 8 },
+					{ "time": "16:30", "movieIndex": 2 },
+					{ "time": "20:30", "movieIndex": 21 }
+				]
+			},
+			{
+				"date": "2023-02-22",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 10 },
+					{ "time": "17:30", "movieIndex": 13 },
+					{ "time": "20:30", "movieIndex": 3 }
+				]
+			},
+			{
+				"date": "2023-02-23",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 21 },
+					{ "time": "17:00", "movieIndex": 18 },
+					{ "time": "20:00", "movieIndex": 10 }
+				]
+			},
+			{
+				"date": "2023-02-24",
+				"showtimes": [
+					{ "time": "12:30", "movieIndex": 1 },
+					{ "time": "15:30", "movieIndex": 22 },
+					{ "time": "18:30", "movieIndex": 8 },
+					{ "time": "21:30", "movieIndex": 5 }
+				]
+			},
+			{
+				"date": "2023-02-25",
+				"showtimes": [
+					{ "time": "10:30", "movieIndex": 13 },
+					{ "time": "13:30", "movieIndex": 15 },
+					{ "time": "17:30", "movieIndex": 16 },
+					{ "time": "20:30", "movieIndex": 20 }
+				]
+			},
+			{
+				"date": "2023-02-26",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 18 },
+					{ "time": "16:30", "movieIndex": 5 },
+					{ "time": "20:30", "movieIndex": 13 }
+				]
+			},
+			{
+				"date": "2023-02-27",
+				"showtimes": [
+					{ "time": "13:30", "movieIndex": 16 },
+					{ "time": "16:30", "movieIndex": 19 },
+					{ "time": "19:30", "movieIndex": 6 },
+					{ "time": "22:30", "movieIndex": 13 }
+				]
+			}
+		]
+	}
+]

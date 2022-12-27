@@ -424,20 +424,5 @@
 		"release": "1993-06-11",
 		"language": "english",
 		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
-	},
-	{
-		"type": "film",
-		"title": "",
-		"genre": ["", "", ""],
-		"description": "",
-		"director": "",
-		"actors": ["", "", "", ""],
-		"land": "",
-		"age": 0,
-		"image": "static/img/movies/",
-		"length": 0,
-		"trailer": "",
-		"release": "1988-08-21",
-		"language": ""
 	}
 ]
