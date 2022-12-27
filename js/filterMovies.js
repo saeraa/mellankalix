@@ -1,28 +1,7 @@
-async function getMovieTimes() {
-	const result = await fetch("static/movies.json");
-	const data = await result.json();
-	return data;
-}
+import { getMovies, getShowTimes } from "./myAPI.js";
 
-async function getMovies() {
-	const result = await fetch("static/database.json");
-	const data = await result.json();
-	return data;
-}
-
-const parameters = [
-	"visningstider",
-	"pabionu",
-	"karusell",
-	"kommande",
-	"klassiker",
-	"salongalcazar",
-	"salongbardeco",
-	"salongcamera"
-];
-
-async function filterMovies(array, parameter) {
-	const movieTimes = await getMovieTimes();
+export async function filterMovies(parameter) {
+	const movieTimes = await getShowTimes();
 	const movies = await getMovies();
 
 	const newMovieArray = movies.map((movie, index) => {
@@ -32,7 +11,7 @@ async function filterMovies(array, parameter) {
 		};
 	});
 
-	movieTimes.salons.forEach((salon) => {
+	movieTimes.forEach((salon) => {
 		const { name: salonName } = salon;
 		salon.dates.forEach((date) => {
 			let dateString = date.date.slice(0, 10);
@@ -59,7 +38,7 @@ async function filterMovies(array, parameter) {
 			tomorrow.setDate(now.getDate() + 1);
 			tomorrow.setHours(23, 59, 59, 59);
 
-			movieTimes.salons.forEach((salon) => {
+			movieTimes.forEach((salon) => {
 				salon.dates.forEach((date) => {
 					const showtime = new Date(date.date).getTime();
 					if (now.getTime() > showtime && showtime < tomorrow.getTime()) {
@@ -105,7 +84,7 @@ async function filterMovies(array, parameter) {
 			);
 			break;
 		case "salongalcazar":
-			dates = movieTimes.salons.filter((salon) => salon.name == "Alcazar");
+			dates = movieTimes.filter((salon) => salon.name == "Alcazar");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
 				const showtime = new Date(date.date).getTime();
@@ -121,7 +100,7 @@ async function filterMovies(array, parameter) {
 			});
 			break;
 		case "salongbardeco":
-			dates = movieTimes.salons.filter((salon) => salon.name == "Bar Deco");
+			dates = movieTimes.filter((salon) => salon.name == "Bar Deco");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
 				const showtime = new Date(date.date).getTime();
@@ -137,7 +116,7 @@ async function filterMovies(array, parameter) {
 			});
 			break;
 		case "salongcamera":
-			dates = movieTimes.salons.filter((salon) => salon.name == "Camera");
+			dates = movieTimes.filter((salon) => salon.name == "Camera");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
 				const showtime = new Date(date.date).getTime();
@@ -155,12 +134,3 @@ async function filterMovies(array, parameter) {
 	}
 	return results;
 }
-
-console.log(await filterMovies([], "visningstider"));
-//console.log(await filterMovies([], "karusell"));
-//console.log(await filterMovies([], "salongalcazar"));
-//console.log(await filterMovies([], "salongbardeco"));
-//console.log(await filterMovies([], "salongcamera"));
-//console.log(await filterMovies([], "kommande"));
-//console.log(await filterMovies([], "pabionu"));
-//console.log(await filterMovies([], "klassiker"));
