@@ -1,3 +1,14 @@
-body {
-  background-color: hotpink;
+@import "./variables.scss";
+@import "./movieCard.scss";
+
+:root {
+  background-color: $c-gray-dark;
+  color: $c-blue-dark;
+  font-family: $font-one;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
