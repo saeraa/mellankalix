@@ -3,8 +3,7 @@
 footer {
   margin-top: 4em;
   width: 95%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-inline: auto;
   padding-bottom: 1em;
   text-align: center;
   background-color: $c-gray-light;
@@ -32,8 +31,16 @@ footer {
   }
 }
 
+@media (min-width: $bp-small) and (max-width: 1000px) {
+  footer {
+    margin-top: 4em;
+    width: 90%;
+  }
+}
+
 @media (min-width: $bp-medium) {
   footer {
+    width: 80%;
     display: flex;
     flex: 1 1 0px;
 

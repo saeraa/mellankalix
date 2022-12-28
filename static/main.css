@@ -132,8 +132,7 @@
 footer {
   margin-top: 4em;
   width: 95%;
-  margin-left: 2.5%;
-  margin-right: 2.5%;
+  margin-inline: auto;
   padding-bottom: 1em;
   text-align: center;
   background-color: #edf2f4;
@@ -157,8 +156,15 @@ footer img:last-child {
   content: url("img/sponsors/sponsor_santa.jpg");
 }
 
+@media (min-width: 500px) and (max-width: 1000px) {
+  footer {
+    margin-top: 4em;
+    width: 90%;
+  }
+}
 @media (min-width: 750px) {
   footer {
+    width: 80%;
     display: flex;
     flex: 1 1 0px;
   }
