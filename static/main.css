@@ -1,3 +1,142 @@
-body {
-  background-color: hotpink;
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+.filtered-list {
+  list-style-type: none;
+  padding: 1rem;
+  max-width: 1200px;
+  margin-inline: auto;
+}
+.filtered-list .date-header {
+  font-weight: 700;
+  font-size: 1.2rem;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-color: rgba(158, 42, 43, 0.4);
+  color: #9e2a2b;
+  padding-left: 4rem;
+  margin-block: 1.5rem;
+}
+.filtered-list .filtered-card:not(:last-of-type)::after {
+  content: "";
+  display: block;
+  grid-column: 1/-1;
+  width: 100%;
+  min-width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, rgba(238, 238, 238, 0) 0%, #9e2a2b 50%, rgba(238, 238, 238, 0) 100%);
+  border-radius: 50%;
+  margin-block: 1rem;
+}
+.filtered-list .filtered-card {
+  display: grid;
+  grid-template-columns: auto auto 40% 20%;
+  place-content: center;
+}
+.filtered-list .filtered-card-time {
+  font-weight: 700;
+  font-size: clamp(1.7rem, 2vw, 2rem);
+  margin-right: -20px;
+  padding-top: 1rem;
+  z-index: 1;
+  color: #edf2f4;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.9);
+}
+.filtered-list .filtered-card-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  place-self: start;
+  color: #edf2f4;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.7);
+}
+.filtered-list .filtered-card-text {
+  padding: 1rem;
+}
+.filtered-list .filtered-card-detail {
+  font-size: 0.8rem;
+  font-family: "Mukta";
+}
+.filtered-list .filtered-card img {
+  max-height: 140px;
+  aspect-ratio: 10/16;
+  object-fit: cover;
+  border-radius: 8px;
+  box-shadow: 0px 0px 5px #161a1d;
+}
+.filtered-list .filtered-card-button {
+  text-decoration: none;
+  font-family: "Mukta";
+  border-radius: 2px;
+  padding: 0.5em clamp(1.8rem, 3vw, 2.5rem);
+  color: #edf2f4;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  display: inline-block;
+  border-radius: 5px;
+  background-color: #9e2a2b;
+  background-image: linear-gradient(to bottom, #540b0e 0%, #9e2a2b 100%);
+  background-size: 300px;
+  background-repeat: no-repeat;
+  background-position: 0%;
+  transition: all 300ms ease-in-out;
+}
+.filtered-list .filtered-card-button:hover {
+  background-position: -200%;
+  transition: all 300ms ease-in-out;
+}
+.filtered-list .filtered-card-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+@media (max-width: 500px) {
+  .filtered-list .filtered-card-text {
+    text-align: center;
+  }
+  .filtered-list .filtered-card-time {
+    margin-right: -50px;
+  }
+  .filtered-list .filtered-card-buttons {
+    flex-wrap: wrap;
+    justify-content: end;
+    max-width: 60vw;
+    place-self: end;
+  }
+}
+@media (max-width: 750px) {
+  .filtered-list {
+    padding: 1rem;
+  }
+  .filtered-list .date-header {
+    padding-left: 1rem;
+  }
+  .filtered-list .filtered-card {
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: 10% 20% 70%;
+  }
+  .filtered-list .filtered-card-time, .filtered-list .filtered-card-image {
+    grid-row: 1/-1;
+  }
+  .filtered-list .filtered-card-text {
+    margin-left: 0.5rem;
+  }
+  .filtered-list .filtered-card-buttons {
+    margin-left: -70px;
+    flex-direction: row;
+    font-size: 0.8rem;
+    padding: 0.5em 2em;
+  }
+}
+:root {
+  background-color: #d9d9d9;
+  color: #161a1d;
+  font-family: "Fira Sans";
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
