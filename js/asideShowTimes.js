@@ -74,6 +74,7 @@ function createHTML(days, dates) {
         
         h3.innerText = dates[i];
         ul.appendChild(h3);
+        ul.classList.add("showtimes")
         
         // Creates an ul for each date and fills it with shotime and title of movie
         for(let j=0; j<days[i].length; j++) {
