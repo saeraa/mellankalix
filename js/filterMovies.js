@@ -41,7 +41,7 @@ export async function filterMovies(parameter) {
 			movieTimes.forEach((salon) => {
 				salon.dates.forEach((date) => {
 					const showtime = new Date(date.date).getTime();
-					if (now.getTime() > showtime && showtime < tomorrow.getTime()) {
+					if (now.getTime() < showtime && showtime < tomorrow.getTime()) {
 						date.showtimes.forEach((time) => {
 							results.push({
 								day: showtime,
