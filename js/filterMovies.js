@@ -30,7 +30,7 @@ export async function filterMovies(parameter) {
 	let dates, now, num, movieRelease, tomorrow;
 
 	switch (parameter) {
-		case "visningstider":
+		case "showtimes":
 			now = new Date();
 			now.setHours(0, 0, 0, 0);
 
@@ -53,7 +53,7 @@ export async function filterMovies(parameter) {
 				});
 			});
 			break;
-		case "pabionu":
+		case "onnow":
 			num = new Set();
 			while (num.size < 21) {
 				num.add(Math.floor(Math.random() * newMovieArray.length));
@@ -62,7 +62,7 @@ export async function filterMovies(parameter) {
 				results.push(newMovieArray[key]);
 			});
 			break;
-		case "karusell":
+		case "carousel":
 			num = new Set();
 			while (num.size < 4) {
 				num.add(Math.floor(Math.random() * newMovieArray.length));
@@ -71,19 +71,19 @@ export async function filterMovies(parameter) {
 				results.push(newMovieArray[key]);
 			});
 			break;
-		case "kommande":
+		case "future":
 			now = new Date().getTime();
 			results = newMovieArray.filter((movie) => {
 				movieRelease = new Date(movie.release).getTime();
 				return movieRelease > now;
 			});
 			break;
-		case "klassiker":
+		case "classics":
 			results = newMovieArray.filter(
 				(movie) => Number(movie.release.slice(0, 4)) < 1990
 			);
 			break;
-		case "salongalcazar":
+		case "alcazar":
 			dates = movieTimes.filter((salon) => salon.name == "Alcazar");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
@@ -99,7 +99,7 @@ export async function filterMovies(parameter) {
 				}
 			});
 			break;
-		case "salongbardeco":
+		case "bardeco":
 			dates = movieTimes.filter((salon) => salon.name == "Bar Deco");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
@@ -115,7 +115,7 @@ export async function filterMovies(parameter) {
 				}
 			});
 			break;
-		case "salongcamera":
+		case "camera":
 			dates = movieTimes.filter((salon) => salon.name == "Camera");
 			now = new Date().getTime();
 			dates[0].dates.forEach((date) => {
