@@ -129,7 +129,59 @@
     padding: 0.5em 2em;
   }
 }
+footer {
+  margin-top: 4em;
+  width: 95%;
+  margin-inline: auto;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: #edf2f4;
+}
+footer .footer-header {
+  padding-top: 1em;
+  font-size: 1.5em;
+}
+footer a {
+  color: #9e2a2b;
+  text-decoration: none;
+}
+footer img {
+  display: block;
+  margin-bottom: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  width: 45%;
+}
+footer img:last-child {
+  content: url("img/sponsors/sponsor_santa.jpg");
+}
 
+@media (min-width: 500px) and (max-width: 1000px) {
+  footer {
+    margin-top: 4em;
+    width: 90%;
+  }
+}
+@media (min-width: 750px) {
+  footer {
+    width: 80%;
+    display: flex;
+    flex: 1 1 0px;
+  }
+  footer .footer-section {
+    flex: 1 1 0;
+    width: 0;
+  }
+  footer .footer-section h3 {
+    padding-bottom: 0.25em;
+  }
+  footer .footer-section a:hover {
+    font-size: 1.1em;
+  }
+  footer .footer-section img:last-child {
+    content: url("img/logo.svg");
+  }
+}
 .current-movies {
   margin: 0 auto;
 }
@@ -199,7 +251,9 @@
   }
   .current-movies-list {
     grid-template-columns: 80%;
-=======
+  }
+ }
+ 
 header {
   background-color: #edf2f4;
   width: 95%;
