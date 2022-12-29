@@ -9,4 +9,25 @@
 .carousel-item {
     height: 100%;
     width: 100%;
+    position: relative;
+}
+
+.carousel-item-prev {
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%)
+}
+
+.carousel-item-next {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.carousel-item-text-container {
+    position: absolute;
+    bottom: 20%;
+    left: 30%;
 }

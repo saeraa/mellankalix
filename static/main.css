@@ -129,6 +129,40 @@
     padding: 0.5em 2em;
   }
 }
+.carousel {
+  background-color: #fff;
+  width: 80%;
+  height: 300px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+.carousel-item {
+  height: 100%;
+  width: 100%;
+  position: relative;
+}
+
+.carousel-item-prev {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+}
+
+.carousel-item-next {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  transform: translateY(-50%);
+}
+
+.carousel-item-text-container {
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+}
+
 :root {
   background-color: #d9d9d9;
   color: #161a1d;
