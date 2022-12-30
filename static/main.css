@@ -1,4 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
 .filtered-list {
   list-style-type: none;
   padding: 1rem;
@@ -252,8 +255,7 @@ footer img:last-child {
   .current-movies-list {
     grid-template-columns: 80%;
   }
- }
- 
+}
 header {
   background-color: #edf2f4;
   width: 95%;
@@ -439,6 +441,88 @@ header .header-list.open li img {
   header .header-list li a img:hover {
     width: 1.4em;
     height: 1.4em;
+  }
+}
+#search-icon {
+  font-size: 1.3em;
+  color: rgb(0, 0, 0);
+}
+
+.search-bx .search {
+  position: relative;
+  display: flex;
+  align-items: center;
+  color: #161a1d;
+}
+.search-bx .search input {
+  padding: 3px 0px 3px 8px;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  background: transparent;
+  color: #161a1d;
+  transition: 1s linear;
+  -webkit-transition: 1s linear;
+  width: 0px;
+}
+.search-bx .search i {
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 13px;
+  cursor: pointer;
+  transition: 0.4s linear;
+}
+.search-bx .search .search-bx2 {
+  position: absolute;
+  width: 280px;
+  height: 300px;
+  top: 35px;
+  left: -10px;
+  background: rgba(22, 26, 29, 0.0823529412);
+  border-radius: 10px;
+  overflow: auto;
+  visibility: hidden;
+  opacity: 0;
+  transition: 0.3s linear;
+  scrollbar-width: thin;
+  scrollbar-color: rgba(22, 26, 29, 0.0823529412) rgba(22, 26, 29, 0.0823529412);
+}
+.search-bx .search .search-bx2 a {
+  text-decoration: none;
+  color: #161a1d;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  transition: 0.3s linear;
+}
+.search-bx .search .search-bx2 a img {
+  height: 100%;
+  width: auto;
+  border-radius: 5px;
+  padding-right: 5px;
+  top: 0px;
+}
+.search-bx .search .search-bx2 a .search-content {
+  color: #161a1d;
+}
+.search-bx .search .search-bx2 a .search-content h6 {
+  font-size: 13px;
+}
+.search-bx .search .search-bx2 a .search-content p {
+  color: #161a1d;
+  font-size: 11px;
+  font-weight: 500;
+}
+.search-bx .search .search-bx2 a:hover {
+  background: #edf2f4;
+}
+.search-bx .search .search-input {
+  width: 280px;
+}
+
+@media (max-width: 500px) {
+  .search-bx {
+    display: none;
   }
 }
 :root {
