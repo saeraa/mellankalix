@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
 .filtered-list {
   list-style-type: none;
   padding: 1rem;
@@ -575,4 +577,26 @@ a {
 }
 a:hover {
   color: #9e2a2b;
+}
+
+.placeholder {
+  text-align: center;
+}
+.placeholder p {
+  margin: auto;
+}
+.placeholder audio {
+  margin-top: 1rem;
+}
+.placeholder button {
+  display: block;
+  margin: auto;
+  margin-top: 2rem;
+  background-color: #540b0e;
+  border-radius: 10px;
+  padding: 8px;
+  color: #fff3b0;
+  border: 1px soild black;
+  text-align: center;
+  text-decoration: none;
 }
