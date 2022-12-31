@@ -477,7 +477,7 @@ header .header-list.open li img {
 }
 .carousel-item.active {
   display: block;
-  overflow: hidden;
+  position: absolute;
   animation: slideFromLeft ease-in-out 1000ms forwards;
 }
 

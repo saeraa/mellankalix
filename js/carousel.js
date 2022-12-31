@@ -1,4 +1,4 @@
-let currentShown = 1;
+let currentShown = 0;
 let changeSlides;
 const prevButtons = document.querySelectorAll(".carousel-item-prev");
 const nextButtons = document.querySelectorAll(".carousel-item-next");
@@ -14,10 +14,6 @@ nextButtons.forEach((button) => {
 
 function displayPrevMovie() {
     let last = currentShown;
-    clearInterval(changeSlides);
-    changeSlides = setInterval(() => {
-        displayPrevMovie();
-    }, 5000);
     movieItems.forEach((item) => {
         item.classList.remove("last");
     })
@@ -25,16 +21,22 @@ function displayPrevMovie() {
     if(currentShown < 0) {
         currentShown = 2;
     }
+    console.log(last, currentShown)
     movieItems.forEach((item, index) => {
-        if(index === last) {
-            item.classList.add("last");
-        }
         if(index === currentShown) {
             item.classList.add("active");
+        } 
+        else if(index === last) {
+            item.classList.add("last");
+            item.classList.remove("active");
         } else {
             item.classList.remove("active");
         }
     });
+    clearInterval(changeSlides);
+    changeSlides = setInterval(() => {
+        displayPrevMovie();
+    }, 5000);
 }
 
 function displayNextMovie() {
