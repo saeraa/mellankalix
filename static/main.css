@@ -443,11 +443,38 @@ header .header-list.open li img {
 }
 
 .carousel-item-text-container {
+  animation: slideTextUp 500ms ease-in 1100ms forwards;
+  padding: 1rem;
+  background-color: rgba(237, 242, 244, 0.5);
   position: absolute;
   bottom: 20%;
   left: 30%;
+  opacity: 0;
+}
+.carousel-item-text-container h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.carousel-item-text-container p {
+  margin-bottom: 1rem;
+}
+.carousel-item-text-container a {
+  border: 1px solid black;
+  padding: 0.25rem 0.5rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
 }
 
+@keyframes slideTextUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
 .carousel-item.active {
   display: block;
   overflow: hidden;
@@ -462,6 +489,20 @@ header .header-list.open li img {
     transform: translateX(0);
   }
 }
+.carousel-item.last {
+  display: block;
+  position: absolute;
+  animation: slideOutLeft ease-in-out 1000ms forwards;
+}
+
+@keyframes slideOutLeft {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
 .carousel-cover-left {
   background-color: #d9d9d9;
   position: absolute;
@@ -469,6 +510,7 @@ header .header-list.open li img {
   width: 100%;
   left: -100%;
   top: 0;
+  z-index: 1000;
 }
 
 .carousel-cover-right {
@@ -478,6 +520,7 @@ header .header-list.open li img {
   width: 100%;
   right: -100%;
   top: 0;
+  z-index: 1000;
 }
 
 :root {
