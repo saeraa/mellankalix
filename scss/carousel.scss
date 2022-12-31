@@ -8,6 +8,12 @@
     margin: 0 auto;
     position: relative;
     overflow: hidden;
+    @media  screen and (max-width: 999px) {
+        width: 90%;
+    }
+    @media  screen and (max-width: 599px) {
+        display: none;
+    }
 }
 
 .carousel-item {
@@ -59,7 +65,7 @@
     overflow: hidden;
     animation: slideTextUp 500ms ease-in 1100ms forwards;
     padding: 1rem;
-    background-color: rgba($color: #edf2f4, $alpha: 0.5);
+    background-color: rgba($color: #edf2f4, $alpha: 0.7);
     position: absolute;
     bottom: 20%;
     left: 30%;
@@ -90,7 +96,7 @@
     }
 }
 
-.carousel-item.active {
+.carousel-item.active-left {
     display: block;
     position: absolute;
     animation: slideFromLeft ease-in-out 1000ms forwards;
@@ -105,7 +111,22 @@
     }
 }
 
-.carousel-item.last {
+.carousel-item.active-right {
+    display: block;
+    position: absolute;
+    animation: slideFromRight ease-in-out 1000ms forwards;
+}
+
+@keyframes slideFromRight {
+    0% {
+        transform: translateX(-100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.carousel-item.last-left {
     display: block;
     position: absolute;
     animation: slideOutLeft ease-in-out 1000ms forwards;
@@ -117,5 +138,20 @@
     }
     100% {
         transform: translateX(-100%);
+    }
+}
+
+.carousel-item.last-right {
+    display: block;
+    position: absolute;
+    animation: slideOutRight ease-in-out 1000ms forwards;
+}
+
+@keyframes slideOutRight {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(100%);
     }
 }

@@ -41,16 +41,17 @@ function generateMovieItems() {
         currentMovie.querySelector("img").src = movie.image;
         currentMovie.querySelector("h3").textContent = movie.title;
         currentMovie.querySelector("p").textContent = movie.director;
-        console.log(currentMovie.querySelector("h3"), movie.title)
+        currentMovie.querySelector("a").href = "movie.html#" + movieIds[index];
     })
 }
 
 generateMovieItems();
 
 function displayPrevMovie() {
+    clearInterval(changeSlides);
     let last = currentShown;
     movieItems.forEach((item) => {
-        item.classList.remove("last");
+        item.classList.remove("last-right", "last-left", "active-right", "active-left");
     })
     currentShown--;
     if(currentShown < 0) {
@@ -59,13 +60,39 @@ function displayPrevMovie() {
 
     movieItems.forEach((item, index) => {
         if(index === currentShown) {
-            item.classList.add("active");
+            item.classList.add("active-left");
         } 
         else if(index === last) {
-            item.classList.add("last");
-            item.classList.remove("active");
+            item.classList.add("last-left");
+            item.classList.remove("active-left");
         } else {
-            item.classList.remove("active");
+            item.classList.remove("active-left");
+        }
+    });
+
+    changeSlides = setInterval(() => {
+        displayPrevMovie();
+    }, 5000);
+}
+
+function displayNextMovie() {
+    let last = currentShown;
+    movieItems.forEach((item) => {
+        item.classList.remove("last-right", "last-left", "active-right", "active-left");
+    })
+    currentShown++;
+    if(currentShown > 2) {
+        currentShown = 0;
+    }
+    movieItems.forEach((item, index) => {
+        if(index === currentShown) {
+            item.classList.add("active-right");
+        } 
+        else if(index === last) {
+            item.classList.add("last-right");
+            item.classList.remove("active-right");
+        } else {
+            item.classList.remove("active-right");
         }
     });
     
@@ -73,14 +100,6 @@ function displayPrevMovie() {
     changeSlides = setInterval(() => {
         displayPrevMovie();
     }, 5000);
-}
-
-function displayNextMovie() {
-    currentShown++;
-    if(currentShown > 2) {
-        currentShown = 0;
-    }
-    console.log(currentShown)
 }
 
 changeSlides = setInterval(() => {
