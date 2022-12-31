@@ -539,6 +539,7 @@ header .header-list.open li img {
 }
 .carousel {
   background-color: #edf2f4;
+  border-radius: 5px;
   width: 70%;
   max-width: 1000px;
   height: 400px;
@@ -594,6 +595,11 @@ header .header-list.open li img {
   transform: translateY(-50%);
   transform: rotate(-45deg);
 }
+@media screen and (max-width: 999px) {
+  .carousel-item-prev {
+    left: 60px;
+  }
+}
 
 .carousel-item-next {
   position: absolute;
@@ -602,13 +608,20 @@ header .header-list.open li img {
   transform: translateY(-50%);
   transform: rotate(135deg);
 }
+@media screen and (max-width: 999px) {
+  .carousel-item-next {
+    right: 60px;
+  }
+}
 
 .carousel-item-text-container {
   overflow: hidden;
   animation: slideTextUp 500ms ease-in 1100ms forwards;
-  padding: 1rem;
-  background-color: rgba(237, 242, 244, 0.7);
+  padding: 1.5rem;
+  background-color: rgba(237, 242, 244, 0.8);
   position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #161a1d;
   bottom: 20%;
   left: 30%;
   opacity: 0;
@@ -622,7 +635,7 @@ header .header-list.open li img {
 }
 .carousel-item-text-container a {
   border: 1px solid black;
-  padding: 0.25rem 0.5rem;
+  padding: 0.5rem 1rem;
   border-radius: 15px;
   margin-bottom: 1rem;
 }

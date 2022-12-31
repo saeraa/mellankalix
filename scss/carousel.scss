@@ -2,6 +2,7 @@
 
 .carousel {
   background-color: #edf2f4;
+  border-radius: 5px;
   width: 70%;
   max-width: 1000px;
   height: 400px;
@@ -52,6 +53,9 @@
   left: 100px;
   transform: translateY(-50%);
   transform: rotate(-45deg);
+  @media screen and (max-width: 999px) {
+    left: 60px;
+  }
 }
 
 .carousel-item-next {
@@ -60,14 +64,19 @@
   right: 100px;
   transform: translateY(-50%);
   transform: rotate(135deg);
+  @media screen and (max-width: 999px) {
+    right: 60px;
+  }
 }
 
 .carousel-item-text-container {
   overflow: hidden;
   animation: slideTextUp 500ms ease-in 1100ms forwards;
-  padding: 1rem;
-  background-color: rgba($color: #edf2f4, $alpha: 0.7);
+  padding: 1.5rem;
+  background-color: rgba($color: #edf2f4, $alpha: 0.8);
   position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px $c-blue-dark;
   bottom: 20%;
   left: 30%;
   opacity: 0;
@@ -80,7 +89,7 @@
   }
   a {
     border: 1px solid black;
-    padding: 0.25rem 0.5rem;
+    padding: 0.5rem 1rem;
     border-radius: 15px;
     margin-bottom: 1rem;
   }
