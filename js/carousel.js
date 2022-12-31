@@ -3,6 +3,13 @@ let changeSlides;
 const prevButtons = document.querySelectorAll(".carousel-item-prev");
 const nextButtons = document.querySelectorAll(".carousel-item-next");
 const movieItems = document.querySelectorAll(".carousel-item");
+const carouselCover = document.querySelectorAll(".carousel-cover");
+
+// carouselCover.forEach((cover) => {
+//     let width =  window.innerWidth- (window.innerWidth * 0.8 );
+//     width = width / 2;
+//     cover.style.width = width + "px";
+// });
 
 prevButtons.forEach((button) => {
     button.addEventListener("click", displayPrevMovie);

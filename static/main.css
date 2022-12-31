@@ -395,6 +395,7 @@ header .header-list.open li img {
   height: 300px;
   margin: 0 auto;
   position: relative;
+  overflow: hidden;
 }
 
 .carousel-item {
@@ -443,6 +444,7 @@ header .header-list.open li img {
 }
 
 .carousel-item-text-container {
+  overflow: hidden;
   animation: slideTextUp 500ms ease-in 1100ms forwards;
   padding: 1rem;
   background-color: rgba(237, 242, 244, 0.5);
@@ -503,26 +505,6 @@ header .header-list.open li img {
     transform: translateX(-100%);
   }
 }
-.carousel-cover-left {
-  background-color: #d9d9d9;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  left: -100%;
-  top: 0;
-  z-index: 1000;
-}
-
-.carousel-cover-right {
-  background-color: #d9d9d9;
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  right: -100%;
-  top: 0;
-  z-index: 1000;
-}
-
 :root {
   background-color: #d9d9d9;
   color: #161a1d;

@@ -6,6 +6,7 @@
     height: 300px;
     margin: 0 auto;
     position: relative;
+    overflow: hidden;
 }
 
 .carousel-item {
@@ -54,6 +55,7 @@
 }
 
 .carousel-item-text-container {
+    overflow: hidden;
     animation: slideTextUp 500ms ease-in 1100ms forwards;
     padding: 1rem;
     background-color: rgba($color: #edf2f4, $alpha: 0.5);
@@ -115,24 +117,4 @@
     100% {
         transform: translateX(-100%);
     }
-}
-
-.carousel-cover-left {
-    background-color: $c-gray-dark;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: -100%;
-    top: 0;
-    z-index: 1000;
-}
-
-.carousel-cover-right {
-    background-color: $c-gray-dark;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    right: -100%;
-    top: 0;
-    z-index: 1000;
 }
