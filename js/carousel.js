@@ -1,15 +1,12 @@
+import { getMovies } from "./myAPI.js";
+
+let movies = await getMovies();
 let currentShown = 0;
 let changeSlides;
+let randomlySortedMovies;
 const prevButtons = document.querySelectorAll(".carousel-item-prev");
 const nextButtons = document.querySelectorAll(".carousel-item-next");
 const movieItems = document.querySelectorAll(".carousel-item");
-const carouselCover = document.querySelectorAll(".carousel-cover");
-
-// carouselCover.forEach((cover) => {
-//     let width =  window.innerWidth- (window.innerWidth * 0.8 );
-//     width = width / 2;
-//     cover.style.width = width + "px";
-// });
 
 prevButtons.forEach((button) => {
     button.addEventListener("click", displayPrevMovie);
@@ -18,6 +15,28 @@ prevButtons.forEach((button) => {
 nextButtons.forEach((button) => {
     button.addEventListener("click", displayNextMovie);
 })
+
+function getRandomMovies() {
+    randomlySortedMovies = movies.sort(function(){
+        return Math.random() - 0.5;
+    });
+    randomlySortedMovies.splice(3)
+    console.log(randomlySortedMovies)
+}
+
+getRandomMovies();
+
+function generateMovieItems() {
+    randomlySortedMovies.forEach((movie, index) => {
+        const currentMovie = movieItems[index]
+        currentMovie.querySelector("img").src = movie.image;
+        currentMovie.querySelector("h3").textContent = movie.title;
+        currentMovie.querySelector("p").textContent = movie.director;
+        console.log(currentMovie.querySelector("h3"), movie.title)
+    })
+}
+
+generateMovieItems();
 
 function displayPrevMovie() {
     let last = currentShown;
@@ -28,7 +47,7 @@ function displayPrevMovie() {
     if(currentShown < 0) {
         currentShown = 2;
     }
-    console.log(last, currentShown)
+
     movieItems.forEach((item, index) => {
         if(index === currentShown) {
             item.classList.add("active");
