@@ -1,64 +1,95 @@
- import {getMovies} from "./myAPI.js";
+import {getMovies} from "./myAPI.js";
 
-const moviesList = document.getElementById("movies-filter")
+const moviesList = document.querySelector("#movies-filter")
 const cinemaMovies = await getMovies();
 
  
 //Render some data to DOM from API
 const displayMovies = (movies) => { 
-    let id = cinemaMovies.filter.length;   
-    const htmlString = movies
-        .map((movie) => {
-            return`<a href="page.html/#${id ++}">
+     const htmlString = movies
+     .map((movie, index) => {
+
+        for (let i = 0; i < movie.genre.length; i++) {
+            movie.genre[i] = movie.genre[i].charAt(0).toUpperCase() + movie.genre[i].slice(1);
+        }
+        const upperCase = movie.genre.join(", ");
+ 
+            return`<a href="page.html/#${index}">
                     <img src="${movie.image}" alt="${movie.title}" />
                     <div class="search-content">
                       <h6>${movie.title}</h6>
-                      <p>${movie.genre}</p>
+                      <p>${upperCase}</p>
                     </div>
                   </a>
+                  <p class="noResult">Inga matchningar</p>
                   `;
-        })
-        .join('');
+                  
+        }
+        )
+        .join("");
         moviesList.innerHTML = htmlString;
-        
     } 
     
 //Open search field
-const filtersearch = () => {
+const filterSearch = () => {
 
-    let search = document.getElementById('search');
-    let search_icon = document.getElementById('search-icon');
+    let search = document.querySelector("#search");
+    let searchIcon = document.querySelector("#search-icon");
     
-    search_icon.addEventListener('click', () => {
-        search.classList.toggle('search-input');
+    searchIcon.addEventListener('click', () => {
+    search.classList.toggle("search-input");
+
+    const x = document.querySelector(".search-bx2");
+    
+    if (x.style.display === "block") {
+        x.style.display = "none";
+      } else {
+        x.style.display = "block";
+      } 
+
     })
     
-
-    //Filter and remove search windows when input is empty
-    let search_bx2 = document.getElementsByClassName('search-bx2')[0];
     
+    
+    //Filter and remove search windows when input is empty
+    let searchBx2 = document.querySelectorAll(".search-bx2")[0];
+     
     search.addEventListener('keyup', () => {
         let filter = search.value.toUpperCase();
-        let a = search_bx2.getElementsByTagName('a');
+        let qtyMovies = cinemaMovies.length;
+ 
+        let a = searchBx2.querySelectorAll('a');
         for (let i = 0; i < a.length; i++) {
-            let b = a[i].getElementsByClassName('search-content')[0];
-            let c = b.getElementsByTagName('h6')[0];
-    
-            let TextValue = c.textContent || c.innerText;
-            if (TextValue.toUpperCase().indexOf(filter) > -1) {
-                a[i].style.display = '';
-                search_bx2.style.visibility = "visible";
-                search_bx2.style.opacity = 1;
+            let b = a[i].querySelectorAll(".search-content")[0];
+            let c = b.querySelectorAll("h6")[0];
+            const noResult = document.querySelector(".noResult")
+            let textValue = c.textContent || c.innerText
+            
+            
+           
+            if (textValue.toUpperCase().indexOf(filter) > -1) {
+                
+                a[i].style.display = "";
+                searchBx2.style.visibility = "visible";
+                searchBx2.style.opacity = 1;
+                
             } else {
-                a[i].style.display = 'none';
+                a[i].style.display = "none";
+                qtyMovies -= 1 ;
             }
             if (search.value == 0) {
-                search_bx2.style.visibility = "hidden";
-                search_bx2.style.opacity = 0;
+                searchBx2.style.visibility = "hidden";
+                searchBx2.style.opacity = 0; 
+            }
+            
+            if (qtyMovies == 0) {
+                noResult.style.display = "flex";  
+            }else{
+                noResult.style.display = "none";
             }
         }
     })
     }
 
-filtersearch()
+filterSearch()
 displayMovies(cinemaMovies); 
