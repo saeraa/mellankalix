@@ -4,6 +4,7 @@ let movies = await getMovies();
 let currentShown = 0;
 let changeSlides;
 let randomlySortedMovies;
+let movieIds = [];
 const prevButtons = document.querySelectorAll(".carousel-item-prev");
 const nextButtons = document.querySelectorAll(".carousel-item-next");
 const movieItems = document.querySelectorAll(".carousel-item");
@@ -17,11 +18,19 @@ nextButtons.forEach((button) => {
 })
 
 function getRandomMovies() {
-    randomlySortedMovies = movies.sort(function(){
+    randomlySortedMovies = Array.from(movies);
+    randomlySortedMovies = randomlySortedMovies.sort(function(){
         return Math.random() - 0.5;
     });
-    randomlySortedMovies.splice(3)
-    console.log(randomlySortedMovies)
+    randomlySortedMovies.splice(3);
+
+    randomlySortedMovies.forEach((randMovie) => {
+        movies.forEach((movie, index) => {
+            if(movie === randMovie) {
+                movieIds.push(index);
+            }
+        });
+    });
 }
 
 getRandomMovies();
@@ -59,6 +68,7 @@ function displayPrevMovie() {
             item.classList.remove("active");
         }
     });
+    
     clearInterval(changeSlides);
     changeSlides = setInterval(() => {
         displayPrevMovie();
