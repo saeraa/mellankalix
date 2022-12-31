@@ -427,7 +427,8 @@ header .header-list.open li img {
   object-position: center;
 }
 
-.carousel-arrow, .carousel-item-text-container {
+.carousel-arrow,
+.carousel-item-text-container {
   z-index: 2;
 }
 

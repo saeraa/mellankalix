@@ -1,157 +1,158 @@
 @import "./variables.scss";
 
 .carousel {
-    background-color: #edf2f4;
-    width: 70%;
-    max-width: 1000px;
-    height: 400px;
-    margin: 0 auto;
-    position: relative;
-    overflow: hidden;
-    @media  screen and (max-width: 999px) {
-        width: 90%;
-    }
-    @media  screen and (max-width: 599px) {
-        display: none;
-    }
+  background-color: #edf2f4;
+  width: 70%;
+  max-width: 1000px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  @media screen and (max-width: 999px) {
+    width: 90%;
+  }
+  @media screen and (max-width: 599px) {
+    display: none;
+  }
 }
 
 .carousel-item {
-    height: 100%;
-    width: 100%;
-    display: none;
+  height: 100%;
+  width: 100%;
+  display: none;
 }
 
 .carousel-item img {
-    width: 98%;
-    height: 96%;
-    opacity: 0.8;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    object-fit: cover;
-    object-position: center;
+  width: 98%;
+  height: 96%;
+  opacity: 0.8;
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  object-position: center;
 }
 
-.carousel-arrow, .carousel-item-text-container {
-    z-index: 2;
+.carousel-arrow,
+.carousel-item-text-container {
+  z-index: 2;
 }
 
 .carousel-arrow {
-    border-top: 3px solid black;
-    border-left: 3px solid black;
-    height: 20px;
-    width: 20px;
+  border-top: 3px solid black;
+  border-left: 3px solid black;
+  height: 20px;
+  width: 20px;
 }
 
 .carousel-item-prev {
-    position: absolute;
-    top: 50%;
-    left: 100px;
-    transform: translateY(-50%);
-    transform: rotate(-45deg);
+  position: absolute;
+  top: 50%;
+  left: 100px;
+  transform: translateY(-50%);
+  transform: rotate(-45deg);
 }
 
 .carousel-item-next {
-    position: absolute;
-    top: 50%;
-    right: 100px;
-    transform: translateY(-50%);
-    transform: rotate(135deg);
+  position: absolute;
+  top: 50%;
+  right: 100px;
+  transform: translateY(-50%);
+  transform: rotate(135deg);
 }
 
 .carousel-item-text-container {
-    overflow: hidden;
-    animation: slideTextUp 500ms ease-in 1100ms forwards;
-    padding: 1rem;
-    background-color: rgba($color: #edf2f4, $alpha: 0.7);
-    position: absolute;
-    bottom: 20%;
-    left: 30%;
-    opacity: 0;
-    h3 {
-        margin: 0;
-        margin-bottom: 0.5rem;
-    }
-    p {
-        margin-bottom: 1rem;
-    }
-    a {
-        border: 1px solid black;
-        padding: 0.25rem 0.5rem;
-        border-radius: 15px;
-        margin-bottom: 1rem;
-    }
+  overflow: hidden;
+  animation: slideTextUp 500ms ease-in 1100ms forwards;
+  padding: 1rem;
+  background-color: rgba($color: #edf2f4, $alpha: 0.7);
+  position: absolute;
+  bottom: 20%;
+  left: 30%;
+  opacity: 0;
+  h3 {
+    margin: 0;
+    margin-bottom: 0.5rem;
+  }
+  p {
+    margin-bottom: 1rem;
+  }
+  a {
+    border: 1px solid black;
+    padding: 0.25rem 0.5rem;
+    border-radius: 15px;
+    margin-bottom: 1rem;
+  }
 }
 
 @keyframes slideTextUp {
-    0% {
-        transform: translateY(100%);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .carousel-item.active-left {
-    display: block;
-    position: absolute;
-    animation: slideFromLeft ease-in-out 1000ms forwards;
+  display: block;
+  position: absolute;
+  animation: slideFromLeft ease-in-out 1000ms forwards;
 }
 
 @keyframes slideFromLeft {
-    0% {
-        transform: translateX(100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .carousel-item.active-right {
-    display: block;
-    position: absolute;
-    animation: slideFromRight ease-in-out 1000ms forwards;
+  display: block;
+  position: absolute;
+  animation: slideFromRight ease-in-out 1000ms forwards;
 }
 
 @keyframes slideFromRight {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(0);
-    }
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
 }
 
 .carousel-item.last-left {
-    display: block;
-    position: absolute;
-    animation: slideOutLeft ease-in-out 1000ms forwards;
+  display: block;
+  position: absolute;
+  animation: slideOutLeft ease-in-out 1000ms forwards;
 }
 
 @keyframes slideOutLeft {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(-100%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 
 .carousel-item.last-right {
-    display: block;
-    position: absolute;
-    animation: slideOutRight ease-in-out 1000ms forwards;
+  display: block;
+  position: absolute;
+  animation: slideOutRight ease-in-out 1000ms forwards;
 }
 
 @keyframes slideOutRight {
-    0% {
-        transform: translateX(0);
-    }
-    100% {
-        transform: translateX(100%);
-    }
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
