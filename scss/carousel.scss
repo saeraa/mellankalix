@@ -1,33 +1,93 @@
+@import "./variables.scss";
+
 .carousel {
-    background-color: #fff;
+    background-color: #edf2f4;
     width: 80%;
     height: 300px;
     margin: 0 auto;
-    padding: 0.5rem;
+    position: relative;
 }
 
 .carousel-item {
     height: 100%;
     width: 100%;
+    display: none;
+}
+
+.carousel-item img {
+    width: 98%;
+    height: 90%;
+    opacity: 0.8;
     position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    object-position: center;
+}
+
+.carousel-arrow, .carousel-item-text-container {
+    z-index: 2;
+}
+
+.carousel-arrow {
+    border-top: 3px solid black;
+    border-left: 3px solid black;
+    height: 20px;
+    width: 20px;
 }
 
 .carousel-item-prev {
     position: absolute;
     top: 50%;
-    left: 20px;
-    transform: translateY(-50%)
+    left: 100px;
+    transform: translateY(-50%);
+    transform: rotate(-45deg);
 }
 
 .carousel-item-next {
     position: absolute;
     top: 50%;
-    right: 20px;
+    right: 100px;
     transform: translateY(-50%);
+    transform: rotate(135deg);
 }
 
 .carousel-item-text-container {
     position: absolute;
     bottom: 20%;
     left: 30%;
+}
+
+.carousel-item.active {
+    display: block;
+    overflow: hidden;
+    animation: slideFromLeft ease-in-out 1000ms forwards;
+}
+
+@keyframes slideFromLeft {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}
+
+.carousel-cover-left {
+    background-color: $c-gray-dark;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: -100%;
+    top: 0;
+}
+
+.carousel-cover-right {
+    background-color: $c-gray-dark;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: -100%;
+    top: 0;
 }

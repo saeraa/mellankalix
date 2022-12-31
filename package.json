@@ -4,7 +4,6 @@
 	"description": "Put pre-commit in your \".git/hooks/\" folder  \r It prevents commits to main branch",
 	"main": "index.js",
 	"type": "module",
-
 	"scripts": {
 		"sass": "sass --no-source-map scss/main.scss static/main.css",
 		"watch": "sass --no-source-map --watch scss/main.scss static/main.css",
