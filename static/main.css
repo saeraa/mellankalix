@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;0,700;1,400&family=Mukta:wght@300;400;700&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
-
 .filtered-list {
   list-style-type: none;
   padding: 1rem;
@@ -538,6 +537,16 @@ header .header-list.open li img {
     height: 1.4em;
   }
 }
+
+.about {
+  width: 75%;
+  margin-inline: 30%;
+}
+.about p {
+  padding-inline: 1rem;
+  max-width: 70ch;
+}
+
 .noResult {
   display: none;
   font-size: 1.5rem;
@@ -661,6 +670,7 @@ header .header-list.open li img {
     top: -590px;
   }
 }
+
 :root {
   background-color: #d9d9d9;
   color: #161a1d;
