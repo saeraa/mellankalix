@@ -41,7 +41,7 @@ function generateMovieItems() {
     currentMovie.querySelector("img").src = movie.image;
     currentMovie.querySelector("h3").textContent = movie.title;
     currentMovie.querySelector("p").textContent = movie.director;
-    currentMovie.querySelector("a").href = "movie.html#" + movieIds[index];
+    currentMovie.querySelector("a").href = window.location.origin + "/movie.html#" + movieIds[index];
   });
 }
 
