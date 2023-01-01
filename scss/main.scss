@@ -5,6 +5,7 @@
 @import "./movieList.scss";
 @import "./header.scss";
 @import "./movieDetails.scss";
+@import "./search.scss";
 
 :root {
 	background-color: $c-gray-dark;
@@ -45,5 +46,30 @@ a {
 
 	&:hover {
 		color: $c-red-light;
+	}
+}
+
+.placeholder {
+	text-align: center;
+	
+	p {
+		margin: auto;
+	}
+
+	audio {
+		margin-top: 1rem;
+	}
+
+	button {
+		display: block;
+		margin: auto;
+		margin-top: 2rem;
+        background-color: $c-red-dark;
+        border-radius: 10px;
+        padding: 8px;
+        color: $c-yellow;
+        border: 1px soild black;
+        text-align: center;
+        text-decoration: none;
 	}
 }
