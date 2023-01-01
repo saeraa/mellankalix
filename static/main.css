@@ -538,6 +538,19 @@ header .header-list.open li img {
   }
 }
 
+.open {
+  width: 75%;
+  margin-inline: 30%;
+}
+.open .opentimes, .open .contact {
+  list-style-type: none;
+}
+.open .rent {
+  list-style-type: georgian;
+}
+.open li, .open p {
+}
+
 .about {
   width: 75%;
   margin-inline: 30%;
