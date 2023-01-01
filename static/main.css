@@ -443,9 +443,12 @@ header .header-list.open li img {
   }
 }
 .news-letter {
-  display: block;
-  align-items: center;
-  justify-content: center;
+  margin-left: 5px;
+  margin-top: 32px;
+}
+.news-letter h2 {
+  margin: 0;
+  margin-bottom: 5px;
 }
 
 input[type=text],
