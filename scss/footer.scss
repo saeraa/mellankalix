@@ -1,0 +1,63 @@
+footer {
+  margin-top: 4em;
+  width: 95%;
+  margin-inline: auto;
+  padding-bottom: 1em;
+  text-align: center;
+  background-color: $c-gray-light;
+
+  .footer-header {
+    padding-top: 1em;
+    font-size: 1.5em;
+  }
+
+  a {
+    color: $c-red-light;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    margin-bottom: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+
+    &:last-child {
+      content: url("img/sponsors/sponsor_santa.jpg");
+    }
+  }
+}
+
+@media (min-width: $bp-small) and (max-width: 1000px) {
+  footer {
+    margin-top: 4em;
+    width: 90%;
+  }
+}
+
+@media (min-width: $bp-medium) {
+  footer {
+    width: 80%;
+    display: flex;
+    flex: 1 1 0px;
+
+    .footer-section {
+      flex: 1 1 0;
+      width: 0;
+
+      h3 {
+        padding-bottom: 0.25em;
+      }
+
+      a:hover {
+        font-size: 1.1em;
+      }
+      img {
+        &:last-child {
+          content: url("img/logo.svg");
+        }
+      }
+    }
+  }
+}

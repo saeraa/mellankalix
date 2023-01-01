@@ -1,13 +1,15 @@
 <!DOCTYPE html>
 <html lang="sv">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="static/main.css" />
-    <script src="index.js" type="module"></script>
-    <title>Tomtens Biograf</title>
-  </head>
+
+<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="static/main.css" />
+    <script src="js/search.js" type="module"></script>
+		<title>Tomtens Biograf</title>
+	</head>
+  
   <body>
     <header>
       <a href="index.html">
@@ -38,9 +40,23 @@
             ><img src="static/img/twitter.png" alt="Twitter"
           /></a>
         </li>
+        <li> 
+          <div class="search-bx">
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Search movies..."
+                id="search"
+                data-search
+              />
+              <i class="material-symbols-outlined" id="search-icon">search</i>
+              <div class="search-bx2" id="movies-filter"></div>
+            </div>
+          </div>
+        </li>
       </ul>
     </header>
-
+    
     <nav>
       <ul class="nav-list">
         <li class="nav-list-item">
@@ -104,7 +120,7 @@
             </div>
           </div>
         </li>
-
+        
         <li class="nav-list-item">
           <div class="dropdown">
             <button class="dropdown-button">
@@ -118,7 +134,7 @@
             </div>
           </div>
         </li>
-
+        
         <li class="nav-list-item" onmouseleave="hideDropdown(this)">
           <div class="dropdown">
             <button class="dropdown-button">
@@ -132,45 +148,50 @@
             </div>
           </div>
         </li>
+    </ul>
+  </nav>
+  
+   <main>
+    <section class="carousel">
+      <article class="carousel-item">
+        <span class="carousel-item-prev">⬅️</span>
+        <span class="carousel-item-next">➡️</span>
+        <img class="carousel-item-image" src="" alt="" />
+        <h3 class="carousel-item-header"></h3>
+        <a href="" class="carousel-item-button">Biljetter</a>
+      </article>
+      <article class="carousel-item">
+        <span class="carousel-item-prev">⬅️</span>
+        <span class="carousel-item-next">➡️</span>
+        <img class="carousel-item-image" src="" alt="" />
+        <h3 class="carousel-item-header"></h3>
+        <a href="" class="carousel-item-button">Biljetter</a>
+      </article>
+    </section> 
+
+   <section class="current-movies">
+      <h2 class="current-movies-header">På bion just nu</h2>
+      <ul class="current-movies-list">
+        <p>Laddar filmer ...</p>
       </ul>
-    </nav>
+    </section>
 
-    <main>
-      <section class="carousel">
-        <article class="carousel-item">
-          <span class="carousel-item-prev">⬅️</span>
-          <span class="carousel-item-next">➡️</span>
-          <img class="carousel-item-image" src="" alt="" />
-          <h3 class="carousel-item-header"></h3>
-          <a href="" class="carousel-item-button">Biljetter</a>
-        </article>
-        <article class="carousel-item">
-          <span class="carousel-item-prev">⬅️</span>
-          <span class="carousel-item-next">➡️</span>
-          <img class="carousel-item-image" src="" alt="" />
-          <h3 class="carousel-item-header"></h3>
-          <a href="" class="carousel-item-button">Biljetter</a>
-        </article>
-      </section>
+    <aside class="showtime">
+      <h2 class="showtime-header">VISNINGSTIDER</h2>
+      <ul class="showtime-showtimes">
+      </ul>
+      <button class="show-more-days">VISA FLERA DAGAR</button>
+    </aside>
+  </main>
 
-      <section class="current-movies">
-        <h2 class="current-movies-header">På bion just nu</h2>
-        <ul class="current-movies-list">
-          <p>Laddar filmer ...</p>
-        </ul>
-      </section>
-
-      <aside class="showtime">
-        <h2 class="showtime-header">VISNINGSTIDER</h2>
-        <ul class="showtime-showtimes"></ul>
-        <button class="show-more-days">VISA FLERA DAGAR</button>
-      </aside>
-    </main>
-
-    <footer>
+  <footer>
+    <div class="footer-section">
       <h3 class="footer-header">Tomtens Biograf</h3>
-      <p class="footer-text">Storgatan 23 999 00 Mellankalix</p>
+      <p class="footer-text">Storgatan 23 </br>
+        999 00 Mellankalix</p>
+    </div>
 
+    <div class="footer-section">
       <h3 class="footer-header">Kontakta oss</h3>
       <p class="footer-text">
         E-post: <a href="" class="footer-link">info@tomtensbiograf.se</a>
@@ -180,13 +201,15 @@
         Följ oss på <a href="" class="footer-link">Facebook</a> och
         <a href="" class="footer-link">Instagram</a>
       </p>
+    </div>
 
+    <div class="footer-section">
       <h3 class="footer-header">I samarbete med:</h3>
-      <img src="" alt="Nån sponsor, typ" class="footer-image" />
-      <img src="" alt="Tomtemor" class="footer-image" />
-    </footer>
-
-    <script src="js/hamburgerMenu.js"></script>
-    <script src="js/navMenu.js"></script>
-  </body>
+      <img src="static/img/sponsors/sponsor_sfilm.png" alt="Nån sponsor, typ" class="footer-image" />
+      <img alt="Tomtemor" class="footer-image" />
+    </div>
+  </footer>
+  <script src="js/hamburgerMenu.js"></script>
+  <script src="js/asideShowTimes.js" type="module"></script>
+</body>
 </html>

@@ -1,0 +1,125 @@
+.noResult {
+  display: none;
+  font-size: 1.5rem;
+  justify-content: center;
+}
+
+#search-icon {
+  color: rgba(0, 0, 0);
+  font-size: 1.3em;
+}
+.search-bx {
+  .search {
+    align-items: center;
+    color: $c-blue-dark;
+    display: flex;
+    position: relative;
+    input {
+      background: transparent;
+      border-radius: 20px;
+      border: none;
+      color: $c-blue-dark;
+      outline: none;
+      transition: 1s linear;
+      -webkit-transition: 1s linear;
+      width: 0px;
+    }
+    i {
+      color: rgb(255, 255, 255, 0.7);
+      cursor: pointer;
+      font-size: 13px;
+      transition: 0.4s linear;
+    }
+    .search-bx2 {
+      background: #161a1d15;
+      border-radius: 10px;
+      display: block;
+      height: 300px;
+      left: -10px;
+      opacity: 0;
+      overflow: auto;
+      position: absolute;
+      scrollbar-width: thin;
+      scrollbar-color: #161a1d15 #161a1d15;
+      top: 35px;
+      transition: 0.3s linear;
+      visibility: hidden;
+      width: 280px;
+      a {
+        align-items: center;
+        color: $c-blue-dark;
+        display: flex;
+        height: 100px;
+        text-decoration: none;
+        transition: 0.3s linear;
+        width: 100%;
+        img {
+          height: 100%;
+          padding-right: 5px;
+          top: 0px;
+          width: 80px;
+        }
+        .search-content {
+          color: $c-blue-dark;
+          h6 {
+            font-size: 13px;
+          }
+          p {
+            color: $c-blue-dark;
+            font-size: 11px;
+            font-weight: 500;
+          }
+        }
+      }
+      a:hover {
+        background: $c-gray-light;
+      }
+    }
+    .search-input {
+      padding: 3px 0px 3px 8px;
+      width: 280px;
+    }
+  }
+}
+@media (max-width: $bp-small) {
+  .search-bx {
+    display: flex;
+    .search {
+      .search-bx2 {
+        display: block;
+        background: #fff3b0;
+        bottom: 0;
+        height: 460px;
+        left: 0;
+        margin-left: auto;
+        margin-right: auto;
+        position: fixed;
+        right: 0;
+        top: 120px;
+        width: 80vw;
+      }
+      .search-input {
+        background: #fff3b0;
+        display: block;
+        left: 25px;
+        margin-left: auto;
+        margin-right: auto;
+        top: 120px;
+        width: 80vw;
+      }
+      #search {
+        background: $c-yellow;
+        color: $c-blue-dark;
+        position: absolute;
+        top: -520px;
+      }
+      #search-icon {
+        color: $c-yellow;
+        font-size: 2em;
+        left: 10px;
+        position: absolute;
+        top: -590px;
+      }
+    }
+  }
+}
