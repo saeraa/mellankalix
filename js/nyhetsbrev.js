@@ -25,7 +25,7 @@ window.onclick = function (event) {
 
 function returnText() {
   let input = document.querySelector("#input-name").value;
-  const thankYou = `Tack ${input} för din anmälning!`;
+  const thankYou = `Tack ${input} för din anmälan!`;
 
   modalContainer.innerHTML = thankYou;
 }
