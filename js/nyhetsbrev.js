@@ -24,8 +24,10 @@ window.onclick = function (event) {
 };
 
 function returnText() {
-  let input = document.querySelector("#input-name").value;
-  const thankYou = `Tack ${input} för din anmälan!`;
+  let inputName = document.querySelector("#input-name").value;
+  let inputEmail = document.querySelector("#input-email").value;
+  const thankYou = `Tack ${inputName} för din anmälan! Kommande 
+                    nyhetsbrev kommer att skickas till ${inputEmail}.`;
 
   modalContainer.innerHTML = thankYou;
 }
