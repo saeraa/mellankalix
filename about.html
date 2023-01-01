@@ -6,16 +6,17 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="static/main.css" />
+  <script src="index.js" type="module"></script>
   <title>Tomtens Biograf</title>
 </head>
 
 <body>
   <header>
-    <a href="index.html"><img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" /> </a>
+    <a href="index.html"><img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" /></a>
     <button class="header-list-toggle"></button>
     <ul class="header-list">
-      <li class="header-list-item"><a href="placeholder.html">Öppettider & Kontakt</a></li>
-      <li class="header-list-item"><a href="placeholder.html">Om Oss</a></li>
+      <li class="header-list-item"><a href="open.html">Öppettider & Kontakt</a></li>
+      <li class="header-list-item"><a href="about.html">Om Oss</a></li>
       <li class="header-list-item"><a href="placeholder.html">Biljettinfo</a></li>
       <li class="header-list-item">
         <a href="placeholder.html">Nyhetsbrev</a>
@@ -72,22 +73,33 @@
   </nav>
 
   <main>
-    <section class="placeholder">
-      <img src="static/img/logo.svg" alt="logo">
-      <h2>Tomten är upptagen! Ho ho ho</h2>
-      <p>Tomten har haft mycket att göra under julen, det har varit ovanligt många olydiga elakingar i år, både stora
-        och små.
-        Så tomten har varit tvungen att dela ut hårda klappar med buller och bång. Därför har hans biograf hamnat efter
-        och de små tomtenissarna har inte hunnit med att få färdigt allt som stått på tomtens önskelistan om hans egna
-        biograf. Lyssna på vad tomten har att säga till de som funderar på om de ska vara snälla i år eller inte.
+    <section class="about">
+      <h2>Tomtens Bio, Bar & Bistro!</h2>
+      <p>Vi är Tomtens Biograf med egen bar i Mellankalix. Den är byggd av kelterna som var på besök strax efter att de
+        byggde Stone-Henge, men nu i nyktert tillstånd ville de skapa en mer gemytlig plats med en bättre atmosfär som
+        lämpade sig för lite mer av en salongsberusning.
+        Redan tidigt byggdes det ett labbratorium/verkstad för att kunna experimentera på små folk och ta fram det vi
+        idag med kärt namn benämner som Nissar och Nissor. Dessa Nissar och Nissor är genetiska kloner av de två första
+        Nissarna Ärtbert och Avioli. Nissar kan inte fortplanta sig, utan förökar sig genom att upplösa sina kroppar i
+        grötskålarna som ställs ut vid jul. Ur dessa grötskålar kommer det en ny svärm Nissar och Nissor varje år som
+        tar över efter deras föregångare.
       </p>
-
-      <button id="bad-santa-btn">Goda råd från Tomten</button>
-      <audio id="bad-santa" controls autoplay>
-        <source id="one" src="static/audio/1.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-
+      <h3>Vi söker en projektionist för nattskiftet</h3>
+      <p>Efter för många vampyr och varulfs attacker, har vi bestämt oss att vi inte orkar städa upp liken efter alla
+        Nissarna dagen efter. Nu söker vi dig som är kvällspigg och har minst 1 tumme. Du bör ha god hygien med good syn
+        så att du inte blir påhoppad från skuggorna. Vi ser gärna att du har egna träpålar och silverkulor, men annars
+        finns det att tillgå. Behöver bara renas från lite Nisse blod.</p>
+      <h3>Biografen har tre slaonger - Alla med egna stolar</h3>
+      <p>Salong Alcazar med 2½ våningar och hela 740½ platser, en jacuzzi, två ångbastur och en inomhus gurkodling. Är
+        våran minsta salong. Här finns även stolar utrustade med spännande verktyg inspirerade från filmen "A Clockwork
+        Orange".</p>
+      <p>Salong Bar Deco med ½ källarvåning är våran S&M grotta. Vi har flera gimp-nissar till ut-låning om du inte har
+        egna. Allt stilfullt dekorerat med Gåsläder i högsta kvalitè</p>
+      <p>Salong Camera med 1 plats är våran största salong. Här har vi en tron värdig Sauron, som även lätt kan göras om
+        till en fotpall för dig från Jotunheim.</p>
+      <h3>En del av Tomtens Verkstad</h3>
+      <p>Vi är en del av Tomtens Verkstad och Julpynt. Våra Nissar och Nissor kommer ursprungligen från Nordpolen och
+        överses av Tomtemor. För alla er som vill uppleva en riktig vinter har vi ett fint utbytes program.</p>
     </section>
   </main>
 
@@ -117,7 +129,6 @@
     </div>
   </footer>
   <script src="js/hamburgerMenu.js"></script>
-  <script src="js/badSanta.js"></script>
 </body>
 
 </html>
