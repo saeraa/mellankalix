@@ -10,9 +10,10 @@
 		"age": 11,
 		"image": "static/img/movies/The_Sixth_Sense_poster.png",
 		"length": 107,
-		"trailer": "https://www.youtube.com/watch?v=3-ZP95NF_Wk",
+		"trailer": "https://www.youtube.com/embed/3-ZP95NF_Wk",
 		"release": "1999-08-02",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -25,9 +26,10 @@
 		"age": 0,
 		"image": "static/img/movies/zdt9dfxwgnkk1.jpg",
 		"length": 96,
-		"trailer": "https://www.youtube.com/watch?v=-E10AcydCuk",
+		"trailer": "https://www.youtube.com/embed/-E10AcydCuk",
 		"release": "1989-07-21",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -45,9 +47,10 @@
 		"age": 15,
 		"image": "static/img/movies/1509357752-f22e08ff5bbe9ae16bb7b61f98ad3126f8c1e616.webp",
 		"length": 168,
-		"trailer": "https://www.imdb.com/video/vi4085842201/?ref_=tt_vi_t_1",
+		"trailer": "https://www.youtube.com/embed/82onGmBx9ZM",
 		"release": "1988-08-21",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -64,9 +67,10 @@
 		"age": 15,
 		"image": "static/img/movies/blade_poster.jpg",
 		"length": 120,
-		"trailer": "https://www.imdb.com/video/vi2746876185/?playlistId=tt0120611&ref_=tt_ov_vi",
+		"trailer": "https://www.youtube.com/embed/kaU2A7KyOu4",
 		"release": "1998-08-19",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -84,9 +88,10 @@
 		"age": 72,
 		"image": "static/img/movies/piren.jpg",
 		"length": 28,
-		"trailer": "https://www.youtube.com/watch?v=WstrUci5Fbg",
+		"trailer": "https://www.youtube.com/embed/WstrUci5Fbg",
 		"release": "1962-02-16",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -103,9 +108,10 @@
 		"age": 15,
 		"image": "static/img/movies/gladiator_poster.jpg",
 		"length": 155,
-		"trailer": "https://www.imdb.com/video/vi2628367897/?playlistId=tt0172495&ref_=tt_pr_ov_vi",
+		"trailer": "https://www.youtube.com/embed/P5ieIbInFpg",
 		"release": "2000-05-01",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -123,9 +129,10 @@
 		"age": 18,
 		"image": "static/img/movies/tolvapor.jpg",
 		"length": 129,
-		"trailer": "https://www.imdb.com/video/vi3214197017/",
+		"trailer": "https://www.youtube.com/embed/15s4Y9ffW_o",
 		"release": "1996-01-05",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -142,9 +149,10 @@
 		"age": 15,
 		"image": "static/img/movies/braveheart_poster.jpg",
 		"length": 178,
-		"trailer": "https://www.imdb.com/video/vi2874063641/?playlistId=tt0112573&ref_=tt_pr_ov_vi",
+		"trailer": "https://www.youtube.com/embed/1NJO0jxBtMo",
 		"release": "1995-05-19",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -163,9 +171,10 @@
 		"age": 15,
 		"image": "static/img/movies/district9.jpg",
 		"length": 112,
-		"trailer": "https://www.imdb.com/video/vi3896050201/",
+		"trailer": "https://www.youtube.com/embed/DyLUwOcR5pk",
 		"release": "2009-08-14",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -186,9 +195,10 @@
 		"age": 2,
 		"image": "static/img/movies/beijinglove.jpg",
 		"length": 84,
-		"trailer": "https://www.youtube.com/watch?v=xKcfD19xAtE",
+		"trailer": "https://www.youtube.com/embed/xKcfD19xAtE",
 		"release": "1994-09-14",
-		"language": "cantonese"
+		"language": "Cantonese",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -206,9 +216,10 @@
 		"age": 15,
 		"image": "static/img/movies/gudfadern.jpg",
 		"length": 175,
-		"trailer": "https://www.imdb.com/video/vi1348706585/?playlistId=tt0068646&ref_=tt_ov_vi",
+		"trailer": "https://www.youtube.com/embed/sY1S34973zA",
 		"release": "1972-09-27",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -226,9 +237,10 @@
 		"age": 16,
 		"image": "static/img/movies/into_the_wild.jpg",
 		"length": 148,
-		"trailer": "https://www.imdb.com/video/vi1051656473/?playlistId=tt0758758&ref_=tt_pr_ov_vi",
+		"trailer": "https://www.youtube.com/embed/XZG1FzyB8DI",
 		"release": "2007-09-21",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -246,9 +258,10 @@
 		"age": 13,
 		"image": "static/img/movies/the_aviator.png",
 		"length": 170,
-		"trailer": "https://www.imdb.com/video/vi3947888665/?playlistId=tt0338751&ref_=tt_ov_vi",
+		"trailer": "https://www.youtube.com/embed/FebPJlmgldE",
 		"release": "2004-12-25",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -266,9 +279,10 @@
 		"age": 13,
 		"image": "static/img/movies/moneyball.jpg",
 		"length": 133,
-		"trailer": "https://www.imdb.com/video/vi3229326361/?playlistId=tt1210166&ref_=tt_pr_ov_vi",
+		"trailer": "https://www.youtube.com/embed/-4QPVo0UIzc",
 		"release": "2011-12-09",
-		"language": "english"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -286,9 +300,10 @@
 		"age": 18,
 		"image": "static/img/movies/parasite.jpg",
 		"length": 132,
-		"trailer": "https://www.imdb.com/video/vi1015463705/?playlistId=tt6751668&ref_=tt_ov_vi",
+		"trailer": "https://www.youtube.com/embed/5xH0HfJHsaY",
 		"release": "2019-05-30",
-		"language": "korean"
+		"language": "korean",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 },
 	{
 		"type": "film",
@@ -301,9 +316,10 @@
 		"age": 11,
 		"image": "static/img/movies/MV5BYjhiNj.jpg",
 		"length": 192,
-		"trailer": "https://www.youtube.com/watch?v=d9MyW72ELq0",
+		"trailer": "https://www.youtube.com/embed/d9MyW72ELq0",
 		"release": "2022-12-14",
-		"language": "English"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -321,9 +337,10 @@
 		"age": 0,
 		"image": "static/img/movies/1400x2100.jpg",
 		"length": 106,
-		"trailer": "https://www.youtube.com/watch?v=s0W6O7mSlaU",
+		"trailer": "https://www.youtube.com/embed/s0W6O7mSlaU",
 		"release": "2022-11-04",
-		"language": "English"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -341,9 +358,10 @@
 		"age": 0,
 		"image": "static/img/movies/5bSSe2RjMI7daHF1hLWIS8Oojq.jpg",
 		"length": 102,
-		"trailer": "https://youtu.be/fAj4ryInaSc",
+		"trailer": "https://www.youtube.com/embed/fAj4ryInaSc",
 		"release": "2022-11-25",
-		"language": "English"
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -356,10 +374,10 @@
 		"age": 15,
 		"image": "static/img/movies/Matrix.jpeg",
 		"length": 136,
-		"trailer": "https://www.imdb.com/video/vi1032782617/?playlistId=tt0133093?ref_=ext_shr_lnk",
+		"trailer": "https://www.youtube.com/embed/vKQi3bBA1y8",
 		"release": "1999-07-14",
-		"language": "english",
-		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -372,10 +390,10 @@
 		"age": 15,
 		"image": "static/img/movies/Inception.jpg",
 		"length": 148,
-		"trailer": "https://www.imdb.com/video/vi2959588889/?playlistId=tt1375666?ref_=ext_shr_lnk",
+		"trailer": "https://www.youtube.com/embed/8hP9D6kZseM",
 		"release": "2010-07-23",
-		"language": "english",
-		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -388,10 +406,10 @@
 		"age": 7,
 		"image": "static/img/movies/En_Ovantad_Vanskap.jpg",
 		"length": 113,
-		"trailer": "https://www.imdb.com/video/vi59285529/?playlistId=tt1675434?ref_=ext_shr_lnk",
+		"trailer": "https://www.youtube.com/embed/5WlLmFvuYKo",
 		"release": "2011-09-23",
-		"language": "french",
-		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
+		"language": "French",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -404,10 +422,10 @@
 		"age": 15,
 		"image": "static/img/movies/Tenet.jpg",
 		"length": 150,
-		"trailer": "https://www.imdb.com/video/vi2051194393/?playlistId=tt6723592?ref_=ext_shr_lnk",
+		"trailer": "https://www.youtube.com/embed/AZGcmvrTX9M",
 		"release": "2020-06-24",
-		"language": "english",
-		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	},
 	{
 		"type": "film",
@@ -420,9 +438,9 @@
 		"age": 11,
 		"image": "static/img/movies/Jurassic_Park.jpg",
 		"length": 127,
-		"trailer": "https://www.imdb.com/video/vi177055257/?playlistId=tt0107290?ref_=ext_shr_lnk",
+		"trailer": "https://www.youtube.com/embed/QWBKEmWWL38",
 		"release": "1993-06-11",
-		"language": "english",
-		"subtitle": ["danish", "finnish", "norwegian", "swedish"]
+		"language": "English",
+		"subtitle": ["Danish", "Finnish", "Norwegian", "Swedish"]
 	}
 ]
