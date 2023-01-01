@@ -1,0 +1,26 @@
+{
+	"name": "mellankalix",
+	"version": "1.0.0",
+	"description": "Put pre-commit in your \".git/hooks/\" folder  \r It prevents commits to main branch",
+	"main": "index.js",
+	"type": "module",
+
+	"scripts": {
+		"sass": "sass --no-source-map scss/main.scss static/main.css",
+		"watch": "sass --no-source-map --watch scss/main.scss static/main.css",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/saeraa/mellankalix.git"
+	},
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/saeraa/mellankalix/issues"
+	},
+	"homepage": "https://github.com/saeraa/mellankalix#readme",
+	"devDependencies": {
+		"sass": "^1.57.0"
+	}
+}
