@@ -681,6 +681,26 @@ header .header-list.open li img {
   nav .nav-list .nav-list-item ul {
     list-style-type: none;
   }
+.open {
+  width: 75%;
+  margin-inline: 30%;
+}
+.open .opentimes, .open .contact {
+  list-style-type: none;
+}
+.open .rent {
+  list-style-type: georgian;
+}
+.open li, .open p {
+}
+
+.about {
+  width: 75%;
+  margin-inline: 30%;
+}
+.about p {
+  padding-inline: 1rem;
+  max-width: 70ch;
 }
 
 .noResult {
@@ -806,6 +826,7 @@ header .header-list.open li img {
     top: -590px;
   }
 }
+
 :root {
   background-color: #d9d9d9;
   color: #161a1d;

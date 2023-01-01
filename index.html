@@ -6,6 +6,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<link rel="stylesheet" href="static/main.css" />
+    <script src="js/carousel.js" type="module"></script>
     <script src="js/search.js" type="module"></script>
 		<title>Tomtens Biograf</title>
 	</head>
@@ -150,24 +151,41 @@
         </li>
     </ul>
   </nav>
-  
-   <main>
-    <section class="carousel">
-      <article class="carousel-item">
-        <span class="carousel-item-prev">⬅️</span>
-        <span class="carousel-item-next">➡️</span>
-        <img class="carousel-item-image" src="" alt="" />
-        <h3 class="carousel-item-header"></h3>
-        <a href="" class="carousel-item-button">Biljetter</a>
-      </article>
-      <article class="carousel-item">
-        <span class="carousel-item-prev">⬅️</span>
-        <span class="carousel-item-next">➡️</span>
-        <img class="carousel-item-image" src="" alt="" />
-        <h3 class="carousel-item-header"></h3>
-        <a href="" class="carousel-item-button">Biljetter</a>
-      </article>
-    </section> 
+
+    <main>
+      <div>
+      <section class="carousel">
+        <article class="carousel-item carousel-item-one active-left">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+        <article class="carousel-item carousel-item-two">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+        <article class="carousel-item carousel-item-three">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+      </section>
 
    <section class="current-movies">
       <h2 class="current-movies-header">På bion just nu</h2>

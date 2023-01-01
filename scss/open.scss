@@ -1,0 +1,17 @@
+.open {
+    width: 75%;
+    margin-inline: 30%;
+
+    .opentimes, .contact {
+        list-style-type: none;      
+    }
+
+    .rent {
+        list-style-type: georgian;
+    }
+
+    li, p {
+        padding-inline: 1rem;
+        max-width: 70ch;
+    }
+}
