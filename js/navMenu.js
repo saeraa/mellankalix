@@ -1,3 +1,17 @@
+
+makeNav();
+
+window.onresize = makeNav;
+
+
+function makeNav(){
+    // removing listeners old listeners
+    const listItems = document.querySelectorAll(".nav-list-item");
+    let newListItems = [];
+    for(let i = 0; i < listItems.length ; i++){
+            newListItems[i] = listItems[i].cloneNode(true);
+            listItems[i].parentNode.replaceChild(newListItems[i], listItems[i]);
+    }
 if(window.innerWidth < 750){
     const buttons = document.querySelectorAll(".dropdown-button");
     buttons.forEach(button => 
@@ -9,16 +23,16 @@ if(window.innerWidth < 750){
         }
         }));
     } else {
-        const listItems = document.querySelectorAll(".nav-list-item");
-        listItems.forEach(listItem =>
+       newListItems.forEach(listItem =>
             listItem.addEventListener("mouseover", () => {
                     const button = listItem.childNodes[1].childNodes[1];
                     openThisHideTheRest(button);
                 }));
-        listItems.forEach(listItem => 
+       newListItems.forEach(listItem => 
             listItem.addEventListener("mouseleave", () => {
                 hideDropdown(listItem);
             }));
+}
 }
 
 function openThisHideTheRest(element){
