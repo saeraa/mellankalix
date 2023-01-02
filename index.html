@@ -2,43 +2,69 @@
 <html lang="sv">
 
 <head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="static/main.css" />
-  <script src="index.js" type="module"></script>
-  <title>Tomtens Biograf</title>
-</head>
-
-<body>
-  <header>
-    <a href="index.html">
-      <img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" />
-    </a>
-    <button class="header-list-toggle"></button>
-    <ul class="header-list">
-      <li class="header-list-item"><a href="#">Öppettider & Kontakt</a></li>
-      <li class="header-list-item"><a href="#">Om Oss</a></li>
-      <li class="header-list-item"><a href="#">Biljettinfo</a></li>
-      <li class="header-list-item">
-        <a href="#">Nyhetsbrev</a>
-      </li>
-      <li class="header-list-item"><a href="#">Presentkort</a></li>
-      <li class="header-list-item">
-        <a href="https://www.facebook.com" target="_blank"><img src="static/img/facebook.png" alt="Facebook" /></a>
-        <a href="https://www.instagram.com" target="_blank"><img src="static/img/instagram.png" alt="Instagram" /></a>
-        <a href="https://www.twitter.com" target="_blank"><img src="static/img/twitter.png" alt="Twitter" /></a>
-      </li>
-    </ul>
-  </header>
-
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="static/main.css" />
+    <script src="js/carousel.js" type="module"></script>
+    <script src="js/search.js" type="module"></script>
+		<title>Tomtens Biograf</title>
+	</head>
+  
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="header-logo"
+          role="button"
+          src="static/img/logo.svg"
+          alt="logo"
+        />
+      </a>
+      <button class="header-list-toggle"></button>
+      <ul class="header-list">
+        <li class="header-list-item"><a href="#">Öppettider & Kontakt</a></li>
+        <li class="header-list-item"><a href="#">Om Oss</a></li>
+        <li class="header-list-item"><a href="#">Biljettinfo</a></li>
+        <li class="header-list-item">
+          <a href="#">Nyhetsbrev</a>
+        </li>
+        <li class="header-list-item"><a href="#">Presentkort</a></li>
+        <li class="header-list-item">
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="static/img/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="static/img/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="static/img/twitter.png" alt="Twitter"
+          /></a>
+        </li>
+        <li> 
+          <div class="search-bx">
+            <div class="search">
+              <input
+                type="text"
+                placeholder="Search movies..."
+                id="search"
+                data-search
+              />
+              <i class="material-symbols-outlined" id="search-icon">search</i>
+              <div class="search-bx2" id="movies-filter"></div>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </header>
+    
   <nav>
     <ul class="nav-list">
       <li class="nav-list-item">REPERTOAR</li>
       <ul class="nav-list-item-list">
         <li>Hela bioprogrammet</li>
-        <li>Kommande premi</li>
-        <li>Hela bioprogrammet</li>
+        <li>Kommande premiärer</li>
+        <li>Erbjudande på matinéfilm</li>
       </ul>
       <li class="nav-list-item">SERVERADE SALONGER</li>
       <ul class="nav-list-item-list">
@@ -57,7 +83,7 @@
         <li>Teater</li>
         <li>Konst</li>
       </ul>
-      <li class="nav-list-item">BAR & BISTRO</li>
+      <li class="nav-list-item">Bar & Bistro</li>
       <ul class="nav-list-item-list">
         <li>Meny</li>
         <li>Premiärfredag</li>
@@ -67,25 +93,42 @@
     </ul>
   </nav>
 
-  <main>
-    <section class="carousel">
-      <article class="carousel-item">
-        <span class="carousel-item-prev">⬅️</span>
-        <span class="carousel-item-next">➡️</span>
-        <img class="carousel-item-image" src="" alt="" />
-        <h3 class="carousel-item-header"></h3>
-        <a href="" class="carousel-item-button">Biljetter</a>
-      </article>
-      <article class="carousel-item">
-        <span class="carousel-item-prev">⬅️</span>
-        <span class="carousel-item-next">➡️</span>
-        <img class="carousel-item-image" src="" alt="" />
-        <h3 class="carousel-item-header"></h3>
-        <a href="" class="carousel-item-button">Biljetter</a>
-      </article>
-    </section>
+    <main>
+      <div>
+      <section class="carousel">
+        <article class="carousel-item carousel-item-one active-left">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+        <article class="carousel-item carousel-item-two">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+        <article class="carousel-item carousel-item-three">
+          <div class="carousel-arrow carousel-item-prev"></div>
+          <div class="carousel-arrow carousel-item-next"></div>
+          <img class="carousel-item-image" src="" alt="" />
+          <div class="carousel-item-text-container">
+            <h3 class="carousel-item-header"></h3>
+            <p class="carousel-item-text"></p>
+            <a href="" class="carousel-item-button">Biljetter</a>
+          </div>
+        </article>
+      </section>
 
-    <section class="current-movies">
+   <section class="current-movies">
       <h2 class="current-movies-header">På bion just nu</h2>
       <ul class="current-movies-list">
         <p>Laddar filmer ...</p>
@@ -113,6 +156,7 @@
       <button class="show-more-days">VISA FLERA DAGAR</button>
     </aside>
   </main>
+
 
   <footer>
     <div class="footer-section">
