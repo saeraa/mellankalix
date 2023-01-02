@@ -1,0 +1,164 @@
+.movie-details {
+	max-width: 900px;
+	margin-inline: auto;
+	display: grid;
+	grid-template-columns: 200px 1fr;
+
+	@media (max-width: $bp-medium) {
+		grid-template-columns: 100%;
+	}
+
+	> div {
+		padding: 1rem;
+
+		@media (min-width: $bp-medium) {
+			grid-column: 2;
+		}
+	}
+
+	hr {
+		border: none;
+		display: block;
+		width: 100%;
+		min-width: 100%;
+		height: 1px;
+		background: linear-gradient(
+			to right,
+			rgba(238, 238, 238, 0) 0%,
+			$c-red-light 50%,
+			rgba(238, 238, 238, 0) 100%
+		);
+		border-radius: 50%;
+		margin-block: 0.5rem 0rem;
+	}
+
+	.movie-title {
+		font-size: clamp(1.2rem, 3vw, 1.6rem);
+		text-transform: uppercase;
+		font-family: $font-one;
+		border-radius: 5px;
+		background-color: $c-red-light;
+		padding: 1rem;
+		color: $c-gray-light;
+		margin-inline: 0;
+		box-shadow: 0px 0px 3px $c-blue-dark;
+	}
+
+	.movie-genres {
+		padding: 1rem 1rem;
+		font-family: $font-two;
+		text-transform: uppercase;
+		font-weight: 700;
+	}
+
+	.movie-description {
+		padding: 1rem;
+	}
+
+	.movie-info {
+		padding: 1rem;
+		width: 100%;
+
+		& span:not(:nth-last-of-type(1))::after {
+			content: "|";
+			padding-inline: 0.3rem;
+			display: inline-block;
+		}
+	}
+
+	.movie-trailer {
+		text-align: right;
+
+		a {
+			border-radius: 5px;
+			padding: 0.5rem 1rem;
+			background-color: $c-gray-light;
+		}
+	}
+
+	.movie-poster {
+		aspect-ratio: 10/16;
+		object-fit: cover;
+		border-radius: 8px;
+		background-color: $c-gray-light;
+		box-shadow: 0px 0px 5px $c-blue-dark;
+		padding: 0.5rem;
+		grid-column: 1;
+		grid-row: 1;
+		max-width: 180px;
+		margin-inline: auto;
+		margin-top: 3rem;
+	}
+
+	.movie-showtimes {
+		padding-bottom: 2rem;
+
+		h2 {
+			text-transform: uppercase;
+			font-family: $font-two;
+		}
+
+		.movie-showtimes-list {
+			list-style-type: none;
+			display: grid;
+			grid-template-columns: repeat(3, 1fr);
+
+			li {
+				padding: 1rem;
+				width: 100%;
+				display: contents;
+				margin-bottom: 1rem;
+
+				span {
+					text-transform: uppercase;
+					display: block;
+				}
+			}
+
+			li:not(:last-of-type)::after {
+				content: "";
+				display: block;
+				grid-column: 1 / -1;
+				width: 100%;
+				min-width: 100%;
+				height: 1px;
+				background: linear-gradient(
+					to right,
+					rgba(238, 238, 238, 0) 0%,
+					$c-red-light 50%,
+					rgba(238, 238, 238, 0) 100%
+				);
+				border-radius: 50%;
+				margin-block: 1.5rem;
+			}
+
+			.movie-tickets {
+				place-self: end;
+				text-decoration: none;
+				font-family: $font-two;
+				padding: 0.5em clamp(1.8rem, 3vw, 2.5rem);
+				color: $c-gray-light;
+				font-weight: 400;
+				text-transform: uppercase;
+				letter-spacing: 0.4px;
+				display: inline-block;
+				border-radius: 5px;
+				background-color: $c-red-light;
+				background-image: linear-gradient(
+					to bottom,
+					$c-red-dark 0%,
+					$c-red-light 100%
+				);
+				background-size: 300px;
+				background-repeat: no-repeat;
+				background-position: 0%;
+				transition: all 300ms ease-in-out;
+
+				&:hover {
+					background-position: -200%;
+					transition: all 300ms ease-in-out;
+				}
+			}
+		}
+	}
+}
