@@ -1055,6 +1055,79 @@ header .header-list.open li img {
   .carousel-item-next {
     right: 60px;
   }
+
+}
+
+.carousel-item-text-container {
+  overflow: hidden;
+  animation: slideTextUp 500ms ease-in 1100ms forwards;
+  padding: 1.5rem;
+  background-color: rgba(237, 242, 244, 0.8);
+  position: absolute;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px #161a1d;
+  bottom: 20%;
+  left: 30%;
+  opacity: 0;
+}
+.carousel-item-text-container h3 {
+  margin: 0;
+  margin-bottom: 0.5rem;
+}
+.carousel-item-text-container p {
+  margin-bottom: 1rem;
+}
+.carousel-item-text-container a {
+  border: 1px solid black;
+  padding: 0.5rem 1rem;
+  border-radius: 15px;
+  margin-bottom: 1rem;
+}
+
+@keyframes slideTextUp {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+.carousel-item.active-left {
+  display: block;
+  position: absolute;
+  animation: slideFromLeft ease-in-out 1000ms forwards;
+}
+
+@keyframes slideFromLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.carousel-item.active-right {
+  display: block;
+  position: absolute;
+  animation: slideFromRight ease-in-out 1000ms forwards;
+}
+
+@keyframes slideFromRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+.carousel-item.last-left {
+  display: block;
+  position: absolute;
+  animation: slideOutLeft ease-in-out 1000ms forwards;
+}
+
 }
 
 .carousel-item-text-container {
@@ -1296,6 +1369,22 @@ header .header-list.open li img {
   max-width: 70ch;
 }
 
+.ticket-info {
+  width: 80%;
+  color: #161a1d;
+  margin-inline: auto;
+}
+.ticket-info p {
+  padding-left: 0.5em;
+  min-width: 100%;
+}
+.ticket-info p small {
+  font-size: 1em;
+  font-weight: bold;
+}
+.ticket-info ul {
+  list-style-type: none;
+  
 @media (max-width: 750px) {
   nav .nav-list {
     width: 80%;
