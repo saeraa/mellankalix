@@ -152,7 +152,7 @@ export async function filterMovies(parameter) {
 			// using regular expression to check if the parameter (hashtag) matches any number
 			const movieIndex = +parameter.slice(1).match(/^\d+$/)?.input;
 
-			if (movieIndex && movieIndex < newMovieArray.length) {
+			if (!isNaN(movieIndex) && movieIndex < newMovieArray.length) {
 				const currentMovie = newMovieArray[movieIndex];
 				results.push(currentMovie);
 			} else {
