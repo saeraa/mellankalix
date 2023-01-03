@@ -1,11 +1,16 @@
 .news-letter {
-  margin-left: 5px;
-  margin-top: 32px;
+ 
 
   h2 {
     margin: 0;
     margin-bottom: 5px;
+    text-align: center;
   }
+}
+
+.news-letter-center{
+  width: 75%;
+ margin-inline: 30%;
 }
 
 input[type="text"],
@@ -75,6 +80,7 @@ input[type="password"]:focus {
   overflow: auto;
   background-color: $c-blue-dark;
   padding-top: 50px;
+  
 }
 
 .modal-content {

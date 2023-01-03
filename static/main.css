@@ -1172,13 +1172,15 @@ header .header-list.open li img {
     display: none;
   }
 }
-.news-letter {
-  margin-left: 5px;
-  margin-top: 32px;
-}
 .news-letter h2 {
   margin: 0;
   margin-bottom: 5px;
+  text-align: center;
+}
+
+.news-letter-center {
+  width: 75%;
+  margin-inline: 30%;
 }
 
 input[type=text],
