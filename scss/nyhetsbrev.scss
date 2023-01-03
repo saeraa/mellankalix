@@ -24,7 +24,7 @@ input[type="password"]:focus {
   outline: none;
 }
 
-button {
+.nyhetsbrev-button,.signup-btn {
   background-color: #9e2a2b;
   color: white;
   padding: 14px 20px;
@@ -35,7 +35,10 @@ button {
   opacity: 0.9;
 }
 
-button:hover {
+.nyhetsbrev-button:hover {
+  opacity: 1;
+}
+.signup-btn:hover {
   opacity: 1;
 }
 
@@ -81,7 +84,7 @@ button:hover {
   width: 80%;
 }
 
-hr {
+.container hr {
   border: 1px solid #f1f1f1;
   margin-bottom: 25px;
 }

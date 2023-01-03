@@ -1,9 +1,17 @@
-@import "./variables.scss";
-@import "./movieCard.scss";
-@import "./footer.scss";
-@import "./movieList.scss";
-@import "./header.scss";
-@import "./nyhetsbrev.scss";
+@import "./variables.scss"; 
+@import "./movieCard.scss"; 
+@import "./asideShowTimes.scss"; 
+@import "./footer.scss"; 
+@import "./movieList.scss"; 
+@import "./header.scss"; 
+@import "./movieDetails.scss"; 
+@import "./search.scss";
+@import "./carousel.scss"; 
+@import "./about.scss"; 
+@import "./open.scss"; 
+@import "./giftcertificate.scss"; 
+@import "./nyhetsbrev.scss"; 
+
 :root {
 	background-color: $c-gray-dark;
 	color: $c-blue-dark;
@@ -43,5 +51,30 @@ a {
 
 	&:hover {
 		color: $c-red-light;
+	}
+}
+
+.placeholder {
+	text-align: center;
+	
+	p {
+		margin: auto;
+	}
+
+	audio {
+		margin-top: 1rem;
+	}
+
+	button {
+		display: block;
+		margin: auto;
+		margin-top: 2rem;
+        background-color: $c-red-dark;
+        border-radius: 10px;
+        padding: 8px;
+        color: $c-yellow;
+        border: 1px soild black;
+        text-align: center;
+        text-decoration: none;
 	}
 }
