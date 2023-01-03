@@ -45,6 +45,7 @@
       transition: 0.3s linear;
       visibility: hidden;
       width: 280px;
+      z-index: 3;
       a {
         align-items: center;
         color: $c-blue-dark;

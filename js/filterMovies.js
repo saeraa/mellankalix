@@ -51,7 +51,8 @@ export async function filterMovies(parameter) {
 							results.push({
 								day: showtime,
 								time: time.time,
-								movie: newMovieArray[time.movieIndex]
+								movie: newMovieArray[time.movieIndex],
+								index: time.movieIndex,
 							});
 						});
 					}
@@ -66,7 +67,10 @@ export async function filterMovies(parameter) {
 				num.add(Math.floor(Math.random() * newMovieArray.length));
 			}
 			num.forEach((value, key) => {
-				results.push(newMovieArray[key]);
+				results.push({
+					index: key,
+					movie: newMovieArray[key]
+				});
 			});
 			break;
 		case "carousel":

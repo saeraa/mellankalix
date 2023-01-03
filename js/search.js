@@ -14,7 +14,7 @@ const displayMovies = (movies) => {
         }
         const upperCase = movie.genre.join(", ");
  
-            return`<a href="page.html/#${index}">
+            return`<a href="./movie.html#${index}">
                     <img src="${movie.image}" alt="${movie.title}" />
                     <div class="search-content">
                       <h6>${movie.title}</h6>
