@@ -11,20 +11,29 @@
 
 <body>
   <header>
-    <a href="index.html"><img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" /> </a>
+    <a href="index.html">
+      <img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" />
+    </a>
     <button class="header-list-toggle"></button>
     <ul class="header-list">
       <li class="header-list-item"><a href="open.html">Öppettider & Kontakt</a></li>
       <li class="header-list-item"><a href="about.html">Om Oss</a></li>
-      <li class="header-list-item"><a href="placeholder.html">Biljettinfo</a></li>
-      <li class="header-list-item">
-        <a href="placeholder.html">Nyhetsbrev</a>
-      </li>
-      <li class="header-list-item"><a href="placeholder.html">Presentkort</a></li>
+      <li class="header-list-item"><a href="ticketInfo.html">Biljettinfo</a></li>
+      <li class="header-list-item"><a href="newsletter.html">Nyhetsbrev</a></li>
+      <li class="header-list-item"><a href="giftcertificate.html">Presentkort</a></li>
       <li class="header-list-item">
         <a href="https://www.facebook.com" target="_blank"><img src="static/img/facebook.png" alt="Facebook" /></a>
         <a href="https://www.instagram.com" target="_blank"><img src="static/img/instagram.png" alt="Instagram" /></a>
         <a href="https://www.twitter.com" target="_blank"><img src="static/img/twitter.png" alt="Twitter" /></a>
+      </li>
+      <li>
+        <div class="search-bx">
+          <div class="search">
+            <input type="text" placeholder="Search movies..." id="search" data-search />
+            <i class="material-symbols-outlined" id="search-icon">search</i>
+            <div class="search-bx2" id="movies-filter"></div>
+          </div>
+        </div>
       </li>
     </ul>
   </header>
@@ -39,7 +48,7 @@
           </button>
           <div class="dropdown-content" id="dropdown-repertoar">
             <a href="placeholder.html">Hela bioprogrammet</a>
-            <a href="placeholder.html">Kommande premiärer</a>
+            <a href="comingPremieres.html">Kommande premiärer</a>
             <a href="placeholder.html">Erbjudande på matinéfilm</a>
           </div>
         </div>
@@ -52,9 +61,9 @@
             <i class="fa fa-caret-down"></i>
           </button>
           <div class="dropdown-content" id="dropdown-salonger">
-              <a href="placeholder.html">Salong Alcatraz</a>
-              <a href="placeholder.html">Salong Bar Deco</a>
-              <a href="placeholder.html">Salong Camera</a>
+            <a href="placeholder.html">Salong Alcatraz</a>
+            <a href="placeholder.html">Salong Bar Deco</a>
+            <a href="placeholder.html">Salong Camera</a>
           </div>
         </div>
       </li>
@@ -92,7 +101,7 @@
           </div>
         </div>
       </li>
-      
+
       <li class="nav-list-item">
         <div class="dropdown">
           <button class="dropdown-button">
@@ -106,22 +115,8 @@
           </div>
         </div>
       </li>
-      
-      <li class="nav-list-item" onmouseleave="hideDropdown(this)">
-        <div class="dropdown">
-          <button class="dropdown-button">
-            Sök
-            <i class="fa fa-search"></i>
-          </button>
-          <div class="dropdown-content" id="dropdown-search">
-            <label for="search">Sök:</label>
-            <input type="text" id="search" name="search" placeholder="Doesnt work yet.." />
-            <small>Tryck "Enter" för att söka</small> 
-          </div>
-        </div>
-      </li>
-  </ul>
-</nav>
+    </ul>
+  </nav>
 
   <main>
     <section class="placeholder">
@@ -171,6 +166,7 @@
   <script src="js/hamburgerMenu.js"></script>
   <script src="js/badSanta.js"></script>
   <script src="js/navMenu.js"></script>
+  <script src="js/search.js" type="module"></script>
 </body>
 
 </html>

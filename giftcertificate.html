@@ -12,44 +12,118 @@
   <body>
     <header>
       <a href="index.html">
-        <img
-          class="header-logo"
-          role="button"
-          src="static/img/logo.svg"
-          alt="logo"
-        />
+        <img class="header-logo" role="button" src="static/img/logo.svg" alt="logo" />
       </a>
       <button class="header-list-toggle"></button>
       <ul class="header-list">
-        <li class="header-list-item"><a href="#">Öppettider & Kontakt</a></li>
-        <li class="header-list-item"><a href="#">Om Oss</a></li>
-        <li class="header-list-item"><a href="#">Biljettinfo</a></li>
+        <li class="header-list-item"><a href="open.html">Öppettider & Kontakt</a></li>
+        <li class="header-list-item"><a href="about.html">Om Oss</a></li>
+        <li class="header-list-item"><a href="ticketInfo.html">Biljettinfo</a></li>
+        <li class="header-list-item"><a href="newsletter.html">Nyhetsbrev</a></li>
+        <li class="header-list-item"><a href="giftcertificate.html">Presentkort</a></li>
         <li class="header-list-item">
-          <a href="#">Nyhetsbrev</a>
+          <a href="https://www.facebook.com" target="_blank"><img src="static/img/facebook.png" alt="Facebook" /></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="static/img/instagram.png" alt="Instagram" /></a>
+          <a href="https://www.twitter.com" target="_blank"><img src="static/img/twitter.png" alt="Twitter" /></a>
         </li>
-        <li class="header-list-item"><a href="#">Presentkort</a></li>
-        <li class="header-list-item">
-          <a href="https://www.facebook.com" target="_blank"
-            ><img src="static/img/facebook.png" alt="Facebook"
-          /></a>
-          <a href="https://www.instagram.com" target="_blank"
-            ><img src="static/img/instagram.png" alt="Instagram"
-          /></a>
-          <a href="https://www.twitter.com" target="_blank"
-            ><img src="static/img/twitter.png" alt="Twitter"
-          /></a>
+        <li>
+          <div class="search-bx">
+            <div class="search">
+              <input type="text" placeholder="Search movies..." id="search" data-search />
+              <i class="material-symbols-outlined" id="search-icon">search</i>
+              <div class="search-bx2" id="movies-filter"></div>
+            </div>
+          </div>
         </li>
       </ul>
     </header>
 
-     
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Repertoar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-repertoar">
+              <a href="placeholder.html">Hela bioprogrammet</a>
+              <a href="comingPremieres.html">Kommande premiärer</a>
+              <a href="placeholder.html">Erbjudande på matinéfilm</a>
+            </div>
+          </div>
+        </li>
+  
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Serverade salonger
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-salonger">
+              <a href="placeholder.html">Salong Alcatraz</a>
+              <a href="placeholder.html">Salong Bar Deco</a>
+              <a href="placeholder.html">Salong Camera</a>
+            </div>
+          </div>
+        </li>
+  
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Specialvisningar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-specialvisningar">
+              <a href="placeholder.html">Klassiker</a>
+              <a href="placeholder.html">Sing Along</a>
+              <a href="placeholder.html">Den Dåliga Filmklubben</a>
+              <a href="placeholder.html">Frukostbio</a>
+              <a href="placeholder.html">Cinemateket</a>
+              <a href="placeholder.html">Nyår på Tomtens Biograf</a>
+              <a href="placeholder.html">Hollywood om Hollywood</a>
+            </div>
+          </div>
+        </li>
+  
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Live på bio
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-live">
+              <a href="placeholder.html">Hela programmet</a>
+              <a href="placeholder.html">Opera</a>
+              <a href="placeholder.html">Teater</a>
+              <a href="placeholder.html">Konst</a>
+              <a href="placeholder.html">Konsert</a>
+            </div>
+          </div>
+        </li>
+  
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Bar & Bistro
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-bar&bistro">
+              <a href="placeholder.html">Meny</a>
+              <a href="placeholder.html">Premiärfredag</a>
+              <a href="placeholder.html">Filmquiz</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+    </nav>
 
     <section class="container content-section">
         <h2 class="section-header">Presentkort</h2>
         <div class="shop-items">
             <div class="shop-item">
                 <span class="shop-item-title">Presentkort 1</span>
-                <img class="shop-item-image" src="/static/img/presentkort100.png">
+                <img class="shop-item-image" src="static/img/presentkort100.png">
                 <div class="shop-item-details">
                     <span class="shop-item-price">100kr</span>
                     <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
@@ -57,7 +131,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Presentkort 2</span>
-                <img class="shop-item-image" src="/static/img/presentkort250.png">
+                <img class="shop-item-image" src="static/img/presentkort250.png">
                 <div class="shop-item-details">
                     <span class="shop-item-price">250kr</span>
                     <button class="btn btn-primary shop-item-button"type="button">Lägg till kundvagn</button>
@@ -65,7 +139,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Presentkort 3</span>
-                <img class="shop-item-image" src="/static/img/presentkort350.png">
+                <img class="shop-item-image" src="static/img/presentkort350.png">
                 <div class="shop-item-details">
                     <span class="shop-item-price">350kr</span>
                     <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
@@ -73,7 +147,7 @@
             </div>
             <div class="shop-item">
                 <span class="shop-item-title">Presentkort 4</span>
-                <img class="shop-item-image" src="/static/img/presentkort500.png">
+                <img class="shop-item-image" src="static/img/presentkort500.png">
                 <div class="shop-item-details">
                     <span class="shop-item-price">500kr</span>
                     <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
@@ -97,7 +171,7 @@
             <strong class="cart-total-title">Summa</strong>
             <span class="cart-total-price">0 Kr</span>
         </div>
-        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+        <button class="btn btn-primary btn-purchase" type="button">BESTÄLL</button>
     </section>
 
     <footer>
@@ -134,5 +208,7 @@
     </footer>
     <script src="js/giftcertificate.js"></script>
     <script src="js/hamburgerMenu.js"></script>
+    <script src="js/navMenu.js"></script>
+    <script src="js/search.js" type="module"></script>
   </body>
 </html>

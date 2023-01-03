@@ -15,7 +15,11 @@ function sortByTime (database) {
     // Goes through all showtimes, converts the dates to readable format, if date is uniqe put in dates array
     database.forEach(data => {
         let day = new Date(data.day);
-        data.day = (day.toDateString())
+        data.day = (day.toLocaleDateString("sv-SE", {
+            weekday: "short",
+            day: "numeric",
+            month: "short"
+        }).toUpperCase())
         
         if(dates.indexOf(data.day) === -1){
             dates.push(data.day);
@@ -82,8 +86,7 @@ function createHTML(days, dates) {
             const li = document.createElement("li");
             const a = document.createElement("a");
 
-
-            a.href = "movie.html"; // must be changed when PBI #27 Create page: Film sida med mer detalj is done!
+            a.href = "./movie.html#" + days[i][j].index;
             a.innerText = `${days[i][j].time} - ${days[i][j].movie.title}`
             li.appendChild(a);
             ul.appendChild(li);

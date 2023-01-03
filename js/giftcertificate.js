@@ -60,7 +60,6 @@ function addToCartClicked(event) {
   const title = shopItem.querySelectorAll(".shop-item-title")[0].innerText;
   const price = shopItem.querySelectorAll(".shop-item-price")[0].innerText;
   const imageSrc = shopItem.querySelectorAll(".shop-item-image")[0].src;
-  console.log(title, price, imageSrc);
   addItemToCart(title, price, imageSrc);
   updateCartTotal();
 }
@@ -84,7 +83,7 @@ function addItemToCart(title, price, imageSrc) {
 <span class="cart-price cart-column">${price}</span>
 <div class="cart-quantity cart-column">
     <input class="cart-quantity-input" type="number" value="1">
-    <button class="btn btn-danger" type="button">REMOVE</button>
+    <button class="btn btn-danger" type="button">TA BORT</button>
 </div>`;
   cartRow.innerHTML = cartRowContent;
   cartItems.append(cartRow);
