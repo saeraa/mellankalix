@@ -1,0 +1,25 @@
+@import "./variables.scss";
+
+.main-content {
+    margin: 0 auto;
+    width: 95%;
+    padding: 2rem 3rem;
+    margin-top: 4rem;
+    background-color: $c-gray-light;
+    ul {
+        list-style: none;
+    }
+    h2 {
+        margin-top: 0;
+    }
+    @media (min-width: 500px) {
+        width: 90%;
+    }
+    @media (min-width: 1001px) {
+        width: 80%;
+    }
+}
+
+.disclaimer-text {
+    margin-top: 2rem;
+}
