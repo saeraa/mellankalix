@@ -23,8 +23,8 @@
       </a>
       <button class="header-list-toggle"></button>
       <ul class="header-list">
-        <li class="header-list-item"><a href="#">Öppettider & Kontakt</a></li>
-        <li class="header-list-item"><a href="#">Om Oss</a></li>
+        <li class="header-list-item"><a href="open.html">Öppettider & Kontakt</a></li>
+        <li class="header-list-item"><a href="about.html">Om Oss</a></li>
         <li class="header-list-item"><a href="#">Biljettinfo</a></li>
         <li class="header-list-item">
           <a href="#">Nyhetsbrev</a>
@@ -58,48 +58,84 @@
       </ul>
     </header>
     
-  <nav>
-    <ul class="nav-list">
-      <li class="nav-list-item">Repertoar</li>
-      <ul class="nav-list-item-list">
-        <li>Hela bioprogrammet</li>
-        <li>Kommande premiärer</li>
-        <li>Erbjudande på matinéfilm</li>
+    <nav>
+      <ul class="nav-list">
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Repertoar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-repertoar">
+              <a href="placeholder.html">Hela bioprogrammet</a>
+              <a href="placeholder.html">Kommande premiärer</a>
+              <a href="placeholder.html">Erbjudande på matinéfilm</a>
+            </div>
+          </div>
+        </li>
 
-      </ul>
-      <li class="nav-list-item">Serverade salonger</li>
-      <ul class="nav-list-item-list">
-        <li>Salong Alcatraz</li>
-        <li>Salong Bar Deco</li>
-        <li>Salong Camera</li>
-      </ul>
-      <li class="nav-list-item">Specialvisningar</li>
-      <ul class="nav-list-item-list">
-        <li>Klassiker</li>
-        <li>Sing Along</li>
-        <li>Den Dåliga Filmklubben</li>
-        <li>Frukostbio</li>
-        <li>Cinemateket</li>
-        <li>Nyår på Tomtens Biograf</li>
-        <li>Hollywood om Hollywood</li>
-      </ul>
-      <li class="nav-list-item">Live på bio</li>
-      <ul class="nav-list-item-list">
-        <li>Hela programmet</li>
-        <li>Opera</li>
-        <li>Teater</li>
-        <li>Konst</li>
-        <li>Konsert</li>
-      </ul>
-      
-      <li class="nav-list-item">Bar & Bistro</li>
-      <ul class="nav-list-item-list">
-        <li>Meny</li>
-        <li>Premiärfredag</li>
-        <li>Filmquiz</li>
-      </ul>
-      <a class="nav-search"> </a>
-    </ul>
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Serverade salonger
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-salonger">
+                <a href="placeholder.html">Salong Alcatraz</a>
+                <a href="placeholder.html">Salong Bar Deco</a>
+                <a href="placeholder.html">Salong Camera</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Specialvisningar
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-specialvisningar">
+              <a href="placeholder.html">Klassiker</a>
+              <a href="placeholder.html">Sing Along</a>
+              <a href="placeholder.html">Den Dåliga Filmklubben</a>
+              <a href="placeholder.html">Frukostbio</a>
+              <a href="placeholder.html">Cinemateket</a>
+              <a href="placeholder.html">Nyår på Tomtens Biograf</a>
+              <a href="placeholder.html">Hollywood om Hollywood</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Live på bio
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-live">
+              <a href="placeholder.html">Hela programmet</a>
+              <a href="placeholder.html">Opera</a>
+              <a href="placeholder.html">Teater</a>
+              <a href="placeholder.html">Konst</a>
+              <a href="placeholder.html">Konsert</a>
+            </div>
+          </div>
+        </li>
+        
+        <li class="nav-list-item">
+          <div class="dropdown">
+            <button class="dropdown-button">
+              Bar & Bistro
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content" id="dropdown-bar&bistro">
+              <a href="placeholder.html">Meny</a>
+              <a href="placeholder.html">Premiärfredag</a>
+              <a href="placeholder.html">Filmquiz</a>
+            </div>
+          </div>
+        </li>
+     </ul>
   </nav>
 
     <main>
@@ -147,11 +183,24 @@
     <aside class="showtime">
       <h2 class="showtime-header">VISNINGSTIDER</h2>
       <ul class="showtime-showtimes">
+        <ul class="showtimes-today">
+          <h3 class="showtimes-today-header">Idag</h3>
+          <li class="showtimes-today-movies">
+            <a class="show-time"></a>
+            <a class="movie-title"></a>
+          </li>
+        </ul>
+        <ul class="showtimes-tomorrow">
+          <h3 class="showtimes-tomorrow-header">Imorgon</h3>
+          <li class="showtimes-tomorrow-movies">
+            <a class="show-time"></a>
+            <a class="movie-title"></a>
+          </li>
+        </ul>
       </ul>
       <button class="show-more-days">VISA FLERA DAGAR</button>
     </aside>
   </main>
-
 
   <footer>
     <div class="footer-section">
@@ -179,7 +228,7 @@
     </div>
   </footer>
   <script src="js/hamburgerMenu.js"></script>
+  <script src="js/navMenu.js"></script>
   <script src="js/asideShowTimes.js" type="module"></script>
 </body>
-
 </html>
