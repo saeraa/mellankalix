@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="static/main.css" />
+		<title>Tomtens Biograf</title>
+	</head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img
+          class="header-logo"
+          role="button"
+          src="static/img/logo.svg"
+          alt="logo"
+        />
+      </a>
+      <button class="header-list-toggle"></button>
+      <ul class="header-list">
+        <li class="header-list-item"><a href="#">Öppettider & Kontakt</a></li>
+        <li class="header-list-item"><a href="#">Om Oss</a></li>
+        <li class="header-list-item"><a href="#">Biljettinfo</a></li>
+        <li class="header-list-item">
+          <a href="#">Nyhetsbrev</a>
+        </li>
+        <li class="header-list-item"><a href="#">Presentkort</a></li>
+        <li class="header-list-item">
+          <a href="https://www.facebook.com" target="_blank"
+            ><img src="static/img/facebook.png" alt="Facebook"
+          /></a>
+          <a href="https://www.instagram.com" target="_blank"
+            ><img src="static/img/instagram.png" alt="Instagram"
+          /></a>
+          <a href="https://www.twitter.com" target="_blank"
+            ><img src="static/img/twitter.png" alt="Twitter"
+          /></a>
+        </li>
+      </ul>
+    </header>
+
+     
+
+    <section class="container content-section">
+        <h2 class="section-header">Presentkort</h2>
+        <div class="shop-items">
+            <div class="shop-item">
+                <span class="shop-item-title">Presentkort 1</span>
+                <img class="shop-item-image" src="/static/img/presentkort100.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">100kr</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Presentkort 2</span>
+                <img class="shop-item-image" src="/static/img/presentkort250.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">250kr</span>
+                    <button class="btn btn-primary shop-item-button"type="button">Lägg till kundvagn</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Presentkort 3</span>
+                <img class="shop-item-image" src="/static/img/presentkort350.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">350kr</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
+                </div>
+            </div>
+            <div class="shop-item">
+                <span class="shop-item-title">Presentkort 4</span>
+                <img class="shop-item-image" src="/static/img/presentkort500.png">
+                <div class="shop-item-details">
+                    <span class="shop-item-price">500kr</span>
+                    <button class="btn btn-primary shop-item-button" type="button">Lägg till kundvagn</button>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="container content-section">
+        <h2 class="section-header">Kundvagn</h2>
+        <div class="cart-row">
+            <span class="cart-item cart-header cart-column">Artikel</span>
+            <span class="cart-price cart-header cart-column">Pris</span>
+            <span class="cart-quantity cart-header cart-column">Antal</span>
+        </div>
+        <div class="cart-items">
+           
+            </div>
+        </div>
+        <div class="cart-total">
+            <strong class="cart-total-title">Summa</strong>
+            <span class="cart-total-price">0 Kr</span>
+        </div>
+        <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+    </section>
+
+    <footer>
+      <div class="footer-section">
+        <h3 class="footer-header">Tomtens Biograf</h3>
+        <p class="footer-text">Storgatan 23 </br>
+          999 00 Mellankalix</p>
+      </div>
+
+      <div class="footer-section">
+        <h3 class="footer-header">Kontakta oss</h3>
+        <p class="footer-text">
+          E-post: <a href="" class="footer-link">info@tomtensbiograf.se</a>
+        </p>
+        <p class="footer-text">Telefon: 999 - 000 22 33</p>
+        <p class="footer-text">
+          Följ oss på <a href="" class="footer-link">Facebook</a> och
+          <a href="" class="footer-link">Instagram</a>
+        </p>
+      </div>
+
+      <div class="footer-section">
+        <h3 class="footer-header">I samarbete med:</h3>
+        <img
+          src="static/img/sponsors/sponsor_sfilm.png"
+          alt="Nån sponsor, typ"
+          class="footer-image"
+        />
+        <img
+          alt="Tomtemor"
+          class="footer-image"
+        />
+      </div>
+    </footer>
+    <script src="js/giftcertificate.js"></script>
+    <script src="js/hamburgerMenu.js"></script>
+  </body>
+</html>
