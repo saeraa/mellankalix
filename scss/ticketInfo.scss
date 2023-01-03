@@ -1,0 +1,18 @@
+.ticket-info {
+    width: 80%;
+    color: $c-blue-dark;
+    margin-inline: auto;
+
+    p {
+        padding-left: 0.5em;
+        min-width: 100%;
+        small {
+            font-size: 1em;
+            font-weight: bold;
+        }
+    }
+
+    ul {
+        list-style-type: none;
+    }
+}
