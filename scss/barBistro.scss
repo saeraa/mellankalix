@@ -1,0 +1,35 @@
+.bar-bistro-main {
+    background-color: $c-gray-light;
+    grid-template-columns: auto !important;
+    width: 95%;
+    padding: 3rem;
+    margin-top: 2rem;
+    a {
+        margin-top: 1.5rem;
+    }
+    ul {
+        list-style: none;
+    }
+    li {
+        margin-top: 1rem;
+    }
+    h2 {
+        margin: 0;
+        margin-bottom: 1rem;
+    }
+    h3 {
+        margin-left: 0;
+    }
+    p {
+        margin: 0;
+    }
+    span {
+        font-weight: 500;
+    }
+    @media screen and (min-width: 500px) {
+        width: 90%;
+    }
+    @media screen and (min-width: 1001px) {
+        width: 80%;
+    }
+}
