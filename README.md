@@ -7,6 +7,10 @@ then in your console enter the command "chmod +x .git/hooks/pre-commit" to make 
 
 https://whimsical.com/221219-SvobytXdHHMuUWwGDU1Tb1
 
+## PART 2
+
+https://github.com/saeraa/bio-ssr
+
 ---
 
 # GruppUppgift 2 – webbsida till Biograf
