@@ -77,7 +77,6 @@ function createHTML(days, dates) {
         const ul = document.createElement("ul");
         
         h3.innerText = dates[i];
-        ul.appendChild(h3);
         ul.classList.add("showtimes")
         
         // Creates an ul for each date and fills it with shotime and title of movie
@@ -92,7 +91,7 @@ function createHTML(days, dates) {
             ul.appendChild(li);
         }
         
-        showTimesUl.appendChild(ul);
+        showTimesUl.append(h3, ul);
     }
 
 }
