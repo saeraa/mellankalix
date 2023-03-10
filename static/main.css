@@ -175,7 +175,7 @@ main:not(.newsletter-main) .showtime {
   text-align: center;
   font-size: clamp(1.5rem, 3vw, 2rem);
   place-self: start;
-  color: #edf2f4;
+  color: #540b0e;
   letter-spacing: 2px;
   text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.5), 0 1px 3px rgba(0, 0, 0, 0.7);
   margin-bottom: 1rem;
@@ -1519,6 +1519,46 @@ input[type=password]:focus {
     display: none;
   }
 }
+.bar-bistro-main {
+  background-color: #edf2f4;
+  grid-template-columns: auto !important;
+  width: 95%;
+  padding: 3rem;
+  margin-top: 2rem;
+}
+.bar-bistro-main a {
+  margin-top: 1.5rem;
+}
+.bar-bistro-main ul {
+  list-style: none;
+}
+.bar-bistro-main li {
+  margin-top: 1rem;
+}
+.bar-bistro-main h2 {
+  margin: 0;
+  margin-bottom: 1rem;
+}
+.bar-bistro-main h3 {
+  margin-left: 0;
+}
+.bar-bistro-main p {
+  margin: 0;
+}
+.bar-bistro-main span {
+  font-weight: 500;
+}
+@media screen and (min-width: 500px) {
+  .bar-bistro-main {
+    width: 90%;
+  }
+}
+@media screen and (min-width: 1001px) {
+  .bar-bistro-main {
+    width: 80%;
+  }
+}
+
 :root {
   background-color: #d9d9d9;
   color: #161a1d;

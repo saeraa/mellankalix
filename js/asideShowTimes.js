@@ -74,11 +74,11 @@ function createHTML(days, dates) {
     for(let i=0; i<days.length; i++){
 
         const h3 = document.createElement("h3");
-        const ul = document.createElement("ul");
+        const div = document.createElement("div");
         
         h3.innerText = dates[i];
-        ul.appendChild(h3);
-        ul.classList.add("showtimes")
+        div.appendChild(h3);
+        div.classList.add("showtimes")
         
         // Creates an ul for each date and fills it with shotime and title of movie
         for(let j=0; j<days[i].length; j++) {
@@ -89,10 +89,10 @@ function createHTML(days, dates) {
             a.href = "./movie.html#" + days[i][j].index;
             a.innerText = `${days[i][j].time} - ${days[i][j].movie.title}`
             li.appendChild(a);
-            ul.appendChild(li);
+            div.appendChild(li);
         }
         
-        showTimesUl.appendChild(ul);
+        showTimesUl.appendChild(div);
     }
 
 }
